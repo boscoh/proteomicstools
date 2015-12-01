@@ -1,0 +1,253 @@
+seqid,description,position,seq,score
+sp|O55779,sp|O55779 C_HENDH Protein C OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=1,23,5.870852020004125,DQASNNQVP
+sp|O55779,sp|O55779 C_HENDH Protein C OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=1,66,0.4101215481948024,EMWRIYPVL
+sp|O55779,sp|O55779 C_HENDH Protein C OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=1,109,2.0719267053560917,TMIMEENVP
+sp|O55779,sp|O55779 C_HENDH Protein C OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=1,111,2.1111458573354014,IMEENVPDM
+sp|O55779,sp|O55779 C_HENDH Protein C OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=1,113,2.848917601536674,EENVPDMDL
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,12,2.2677107420319644,DIIDFIQKN
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,15,2.455426994154549,DFIQKNQKE
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,16,4.256583968095416,FIQKNQKEI
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,70,1.0297174600162218,TEGRNVEDL
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,77,2.2824393325588654,DLSSVTSSD
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,94,1.1731952850362046,NTRAWAEDP
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,153,0.5522313893412183,DTKVLPNAP
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,173,4.0541933821308005,DLIGLEDKF
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,187,1.5018861800825642,NPAAVPFVP
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,197,4.145935095976266,NQSTPTEEP
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,242,1.3835833791101657,DEDENQLEY
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,244,0.6346546669564876,DENQLEYED
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,246,1.3525825245634169,NQLEYEDEF
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,274,0.8729953484201846,NQEEVVGDP
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,284,1.1841254990055488,DQGLEHPFP
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,304,0.08175603522729125,DVRRKDSLM
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,440,2.6136453309774224,SVTAENVQL
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,463,1.329091418829029,EVTSNEDSL
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,470,1.7902256472239069,SLDDKYIMP
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,486,0.4879935983789432,FLPHDTDRL
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,530,0.0910257540575441,RLNHIEEQM
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,536,0.39837656042036307,EQMKEIPKI
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,564,1.041805587725788,TIEGHLVSM
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,591,0.04242780599066076,ELKPVIGRN
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,599,2.463366126431279,NILEQQELF
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,606,0.3927304600919811,LFSFDNLKN
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,634,3.3040065463977615,DLILPELNF
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,644,0.9765390703804249,ETNASQFVP
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,674,0.19483456280721373,ELRSELMDY
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,681,0.3060530552095191,DYLNRAETD
+sp|O55778,sp|O55778 PHOSP_HENDH Phosphoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=2 SV=2,689,0.07492776938240708,DEEVQEVAN
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,12,2.2677107420319644,DIIDFIQKN
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,15,2.455426994154549,DFIQKNQKE
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,16,4.256583968095416,FIQKNQKEI
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,70,1.0297174600162218,TEGRNVEDL
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,77,2.2824393325588654,DLSSVTSSD
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,94,1.1731952850362046,NTRAWAEDP
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,153,0.5522313893412183,DTKVLPNAP
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,173,4.0541933821308005,DLIGLEDKF
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,187,1.5018861800825642,NPAAVPFVP
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,197,4.145935095976266,NQSTPTEEP
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,242,1.3835833791101657,DEDENQLEY
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,244,0.6346546669564876,DENQLEYED
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,246,1.3525825245634169,NQLEYEDEF
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,274,0.8729953484201846,NQEEVVGDP
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,284,1.1841254990055488,DQGLEHPFP
+sp|O55777,sp|O55777 V_HENDH Non-structural protein V OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=1 SV=1,304,0.08175603522729125,DVRRKDSLM
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,9,1.9392302394443945,DIIYPECHL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,32,0.6634582492607242,YAQLRHNQP
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,38,1.3606709705810416,NQPNGDKRL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,71,2.7516155177021235,NYIRDNIKN
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,72,1.2225429447918463,YIRDNIKNL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,75,1.5309203944983623,DNIKNLKEF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,76,1.8605923325541953,NIKNLKEFL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,95,1.1269791888607334,LFSLKSPGM
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,131,0.5013498296552699,NITRNLITQ
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,135,2.162356379593764,NLITQDQKD
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,138,2.200194254858575,TQDQKDEVL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,182,0.06895825223511975,AVIKNSQKP
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,228,1.3425631000358216,YYLTPEIVL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,229,1.6528214755846562,YLTPEIVLM
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,260,2.3689043787967115,SLITRSNAL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,271,2.6725452508243546,FIDSLFPIM
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,337,0.8195985482209552,FIDDLLSVM
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,344,0.2519497159680575,VMNIDNIHL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,348,0.11060948367698309,DNIHLLAEF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,349,0.2384146726283657,NIHLLAEFF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,355,1.2753194338034124,EFFSFFRTF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,391,3.32326242231983,PIMKAHAVF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,468,1.4039867388519653,SMYMKDKAL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,507,2.713972386863114,DVFVNDENF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,509,2.746505890434992,FVNDENFDP
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,512,2.608688568722102,DENFDPYNM
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,514,2.4143666497049816,NFDPYNMLE
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,517,0.6973296761705632,PYNMLEYVL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,533,1.729797190379334,EQFNVSYSL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,587,1.8677571975071947,DEHELLKTL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,614,0.14746747148772776,EFSNNTEKS
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,655,5.260998197632158,DQKKHNILP
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,675,0.1824077454814399,SQTFLDYHM
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,677,3.3168391548303777,TFLDYHMEF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,718,1.5047822231981076,FLTTDLKKF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,734,0.7757893759119032,SMAIFAERL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,743,1.4904912950878737,DEIYGLPGF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,774,2.0286311367508723,DIGKHINLD
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,814,0.5047054809385975,LFLSAYETN
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,838,3.1934417396721653,ITQKVHPNL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,862,2.405242317125496,YFDRLRMNL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,869,0.051758932277822245,NLRALGLNL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,883,0.5792609308637329,IISTHLFVY
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,951,3.3282833013346522,NVLKVIQQL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,963,1.6173837734230108,TEFSINETL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,974,0.11185947318113276,DVTSPISNN
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,977,0.5336289756974628,SPISNNLDW
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,978,1.0150622217112328,PISNNLDWL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1003,0.6610980761628834,NLSRIFVRN
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1007,0.458979652737427,IFVRNIGDP
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1042,1.6454350750179043,NQEPGDASF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1101,3.2606102921446034,DLELATFLM
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1108,0.1754812232532318,LMDRRIILP
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1166,0.4003733249510265,DYNQFLILN
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1244,2.1939640065010946,TMYGWFFVP
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1249,3.4750052965045297,FFVPRDSQL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1286,0.5402464112524246,NVKRPTRAL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1302,1.5115247655358341,LFIPGHTEI
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1303,1.7440503188007934,FIPGHTEIL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1310,1.279501741512735,ILKKVGMRL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1369,0.060673338208190764,YVNISNDNL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1371,4.48833542661522,NISNDNLDF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1378,1.6618686918582737,DFRVEGEKV
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1389,3.9852465495076164,NLIYQQTML
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1435,7.895443895382461,DIGGVNAEL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1440,0.3120984715514808,NAELPVPEY
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1448,0.49011234642683466,YTEVENNRL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1459,1.9480228134850446,DPDPVSEID
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1487,0.48348828891613205,STEELHDVL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1526,1.4806877706105515,SINSLITEF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1533,4.627291986847477,EFLMVDPEL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1534,2.6335007184958625,FLMVDPELF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1584,0.1860475916821085,TYKVLSNAL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1590,0.7294694869176032,NALSHPRVF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1619,7.313747608014062,DFEKLSQNL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1631,0.6989765678365438,SYMNYLMNW
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1641,3.7614804874009025,DFKKFPFLI
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1651,1.5460727809571115,EQDEAVVEL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1675,1.095876598959892,LYANHHKPP
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1676,1.4849920214133192,YANHHKPPW
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1687,0.25779353231131363,DLNPQEKIC
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1708,0.10684629983560368,DVSSRSWNI
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1720,7.661501937036559,DFMVFYASL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1757,1.9648696985325846,NILVENPPI
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1776,0.17896521526085052,IIYNLEEIL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1824,2.6714344986183045,NLSPLIQRY
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1832,0.6260439873994461,YLPAGSQRL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1871,4.650503970744824,DYIPGQREL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1885,0.6160275537654862,EYSIAEDDP
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1918,1.1608604532571174,NLDSYEYII
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1933,3.3105331439473327,NIGLVHSDM
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1940,1.1388667748285026,DMESGIDKQ
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1951,2.467079120660829,EIMIEHSHL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1965,1.34449106921288,NVMIEDGVL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,1990,2.56757151529124,NMYRSYFGL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,2025,5.958173067596405,TIIPPQKVL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,2065,1.371607452558946,DLVKHYQVE
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,2089,0.45534582549102265,LMQAGLKMN
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,2109,3.0514676401496104,DIGSDINTL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,2121,3.126219420645784,IIILLNEAM
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,2137,0.7754537409764919,SPSHHLEPF
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,2195,0.5146547964647654,DFRSHTMIK
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,2225,2.615361880684893,DLSNREVKI
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,13,1.3488940566319647,NLSGKIKDQ
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,20,2.6140903808204667,DQGKVIKNY
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,33,4.172619456081333,DIKKINDGL
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,49,3.543773324994328,AFNTVIALL
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,86,3.635763745168034,SLQSVQQQI
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,89,1.5436569037948487,SVQQQIKAL
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,118,0.9461345611118029,ITIPANIGL
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,159,1.0248096424415731,NISCPNPLP
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,180,0.523281753499685,DLVGLPNQI
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,315,0.5205843061444758,SLIRLAVRP
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,329,2.877061056282491,DYNQKYIAI
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,363,0.6560965624169544,YFPAVGFLP
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,423,3.019441877208269,DIILQFIEI
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,428,0.13595777744229487,FIEIADNRL
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,437,0.39574102046735443,TIGSPSKIY
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,462,0.7926231314788841,TMIKLGDVD
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,529,5.396188084306153,NQTAENPVF
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,532,1.2615557952380043,AENPVFAVF
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,538,0.17371065002438058,AVFKDNEIL
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,543,1.7215074795932743,NEILYQVPL
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,88,0.5740900505882924,SPIKGAIEL
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,95,0.885355535950533,ELYNNNTHD
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,107,0.5744536849570908,DVKLAGVVM
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,177,0.8393924221067017,DYINTNLVP
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,202,0.4916283272840791,ALSKYLSDL
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,206,1.0784078946086175,YLSDLLFVF
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,209,1.2632640614055073,DLLFVFGPN
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,218,0.16102622293512803,LQDPVSNSM
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,227,3.009676760455073,TIQAISQAF
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,234,3.7604170025653136,AFGGNYETL
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,245,2.5431228972776108,TLGYATEDF
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,248,0.8771951910679331,YATEDFDDL
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,252,3.3187028150525144,DFDDLLESD
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,270,1.966798733573152,DLSSYYIIV
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,288,1.6430590642131002,IQQAYVQEL
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,295,0.9378621285158374,ELLPVSFNN
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,300,5.165735506391722,SFNNDNSEW
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,425,1.3066109684456606,IIISLGKYL
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,435,1.56144695917827,SINYNSESI
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,437,1.1337621339413666,NYNSESIAV
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,442,0.20002169336570413,SIAVGPPVY
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,455,3.3460256437515645,DISSQISSM
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,472,2.4802896985503917,DYIKEAQKI
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,473,1.4040516127682734,YIKEAQKIL
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,480,4.49977819588152,ILDTVNPSL
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,2,1.3678050250232414,DFSVSDNLD
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,8,0.11314049768495837,NLDDPIEGV
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,11,0.9833845612846063,DPIEGVSDF
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,18,1.0433159595930777,DFSPTSWEN
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,29,3.347684403323159,YLDKVEPEI
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,36,0.7671593945723232,EIDKHGSMI
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,42,2.729639299427149,SMIPKYKIY
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,55,1.8445966688858206,NERKFNNYM
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,99,0.8766669809284374,STSHPQDLL
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,161,0.3367720329446564,DQIQLENQQ
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,174,0.12557798426455935,FFLSITKLN
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,234,2.3088639281242687,SFMLHLGNF
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,241,0.18850325286311326,NFVRRAGKY
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,260,0.7464393660687214,DRMKLQFSL
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,301,3.5509452123749927,SLMDINPWL
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,304,5.32664349406807,DINPWLNRL
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,319,4.175263346218801,EISRVAAVL
+sp|O89341,sp|O89341 MATRX_HENDH Matrix protein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=M PE=3 SV=2,334,4.121877215508601,EFMIYDDVF
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,3,1.9931969156155822,DIFDEAASF
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,10,2.4285487793296374,SFRSYQSKL
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,76,0.2711313656671745,LISMYSERP
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,96,1.9327839048025182,DIEAVIIDV
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,106,2.660256436743791,SMLNGIPVM
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,157,0.368300929983725,DMSTLVSAV
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,167,0.20535890286799807,TIEAQIWIL
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,205,2.310973168470458,PFFALTQQW
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,283,0.9628338192173201,ALNEFQSDL
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,286,1.5243944838687813,EFQSDLNTI
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,290,1.8756512325756587,DLNTIKGLM
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,292,2.5913196444216275,NTIKGLMLL
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,303,2.4177436107824137,EIGPRAPYM
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,349,4.158785654700712,NINRGYLEP
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,407,5.397219333076197,NMQAREAKF
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,428,3.717176373484926,DIDEEEEPI
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,515,2.4391883778319388,DQEPKPAQN
+sp|O89339,sp|O89339 NCAP_HENDH Nucleoprotein OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=N PE=3 SV=1,517,0.16355983256186968,EPKPAQNDL
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,12,2.2677107420319644,DIIDFIQKN
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,15,2.455426994154549,DFIQKNQKE
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,16,4.256583968095416,FIQKNQKEI
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,70,1.0297174600162218,TEGRNVEDL
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,77,2.2824393325588654,DLSSVTSSD
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,94,1.1731952850362046,NTRAWAEDP
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,153,0.5522313893412183,DTKVLPNAP
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,173,4.0541933821308005,DLIGLEDKF
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,187,1.5018861800825642,NPAAVPFVP
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,197,4.145935095976266,NQSTPTEEP
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,242,1.3835833791101657,DEDENQLEY
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,244,0.6346546669564876,DENQLEYED
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,246,1.3525825245634169,NQLEYEDEF
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,274,0.8729953484201846,NQEEVVGDP
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,284,1.1841254990055488,DQGLEHPFP
+sp|P0C1C6,sp|P0C1C6 W_HENDH Protein W OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=P/V/C PE=3 SV=1,304,0.08175603522729125,DVRRKDSLM

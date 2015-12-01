@@ -1,0 +1,5 @@
+seqid,description,position,seq,score
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,839,2.3281331200783963,TQKVHPNL
+sp|O89344,sp|O89344 L_HENDH RNA-directed RNA polymerase L OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=L PE=3 SV=2,2070,5.29252799024963,YQVEQPFF
+sp|O89343,sp|O89343 GLYCP_HENDH Glycoprotein G OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=G PE=1 SV=2,319,0.32706837511409503,LAVRPKSD
+sp|O89342,sp|O89342 FUS_HENDH Fusion glycoprotein F0 OS=Hendra virus (isolate Horse/Autralia/Hendra/1994) GN=F PE=1 SV=2,54,1.059488693427208,TKDIVIKM

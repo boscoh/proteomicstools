@@ -1,0 +1,16 @@
+{
+    "output_dir": "example",
+    "collate_file": "collate.csv",
+    "reject_file": 'reject.csv',
+    "delta_mass_cutoff": 0.05,
+    "datasets": [
+        ["example/DPrep1.txt", 97], 
+        ["example/DPrep2.txt", 96.3],
+        ["example/DPrep3.txt", 95.6],
+        ["example/Pilot5_example.txt", 96],
+    ],
+    'contaminants': [
+        ['example/B57-w632-contam.txt', 90],
+    ]
+
+}

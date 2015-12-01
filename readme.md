@@ -1,0 +1,11 @@
+# hla-mhc
+- check with tony purcell
+    - useful for vaccines - working out what will hit HLA  
+    - perhaps look at spectra of peptides
+    - automate looking at secondary structure, disorder
+    - phospho-peptides in right format?
+    - redo statistics using HLA specific probability models
+- peptide clusters
+    - http://www.kimlab.org/software/musi
+    - http://www.recamo.cz/en/software/hammock-cluster-peptides/
+    - http://www.cbs.dtu.dk/services/GibbsCluster/
