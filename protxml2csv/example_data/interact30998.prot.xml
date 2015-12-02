@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost/tpp/data/Oded/H2O2_Apr12/interact30998.prot.xsl"?>
+<protein_summary xmlns="http://regis-web.systemsbiology.net/protXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://sashimi.sourceforge.net/schema_revision/protXML/protXML_v6.xsd" summary_xml="/Library/WebServer/Documents/tpp/data/Oded/H2O2_Apr12/interact30998.prot.xml">
+<protein_summary_header reference_database="/Library/WebServer/Documents/tpp/data/dbase/BSA.fasta" residue_substitution_list="I -> L" source_files="/Library/WebServer/Documents/tpp/data/Oded/H2O2_Apr12/interact30998.pep.xml" source_files_alt="/Library/WebServer/Documents/tpp/data/Oded/H2O2_Apr12/interact30998.pep.xml" min_peptide_probability="0.20" min_peptide_weight="0.50" num_predicted_correct_prots="1.0" num_input_1_spectra="0" num_input_2_spectra="55" num_input_3_spectra="31" num_input_4_spectra="0" num_input_5_spectra="0" initial_min_peptide_prob="0.05" total_no_spectrum_ids="65.0" sample_enzyme="trypsin">
+<program_details analysis="proteinprophet" time="2012-04-05T21:01:16" version=" Insilicos_LabKey_C++ (TPP v4.5 RAPTURE rev 2, Build 201202032303 (linux))">
+<proteinprophet_details  occam_flag="Y" groups_flag="Y" degen_flag="Y" nsp_flag="Y" initial_peptide_wt_iters="1" nsp_distribution_iters="2" final_peptide_wt_iters="0" run_options="XML">
+      <nsp_information neighboring_bin_smoothing="Y">
+         <nsp_distribution bin_no="0" nsp_lower_bound_excl="0.00" nsp_upper_bound_incl="51.38" pos_freq="0.118" neg_freq="0.024" pos_to_neg_ratio="4.90"/>
+         <nsp_distribution bin_no="1" nsp_lower_bound_excl="51.38" nsp_upper_bound_incl="51.38" pos_freq="0.140" neg_freq="0.025" pos_to_neg_ratio="5.51"/>
+         <nsp_distribution bin_no="2" nsp_lower_bound_excl="51.38" nsp_upper_bound_incl="51.39" pos_freq="0.121" neg_freq="0.026" pos_to_neg_ratio="4.61" alt_pos_to_neg_ratio="5.51"/>
+         <nsp_distribution bin_no="3" nsp_lower_bound_excl="51.39" nsp_upper_bound_incl="51.40" pos_freq="0.103" neg_freq="0.026" pos_to_neg_ratio="4.03" alt_pos_to_neg_ratio="5.51"/>
+         <nsp_distribution bin_no="4" nsp_lower_bound_excl="51.40" nsp_upper_bound_incl="51.43" pos_freq="0.109" neg_freq="0.033" pos_to_neg_ratio="3.34" alt_pos_to_neg_ratio="5.51"/>
+         <nsp_distribution bin_no="5" nsp_lower_bound_excl="51.43" nsp_upper_bound_incl="51.56" pos_freq="0.116" neg_freq="0.049" pos_to_neg_ratio="2.36" alt_pos_to_neg_ratio="5.51"/>
+         <nsp_distribution bin_no="6" nsp_lower_bound_excl="51.56" nsp_upper_bound_incl="51.64" pos_freq="0.098" neg_freq="0.066" pos_to_neg_ratio="1.48" alt_pos_to_neg_ratio="5.51"/>
+         <nsp_distribution bin_no="7" nsp_lower_bound_excl="51.64" nsp_upper_bound_incl="51.83" pos_freq="0.088" neg_freq="0.160" pos_to_neg_ratio="0.55" alt_pos_to_neg_ratio="5.51"/>
+         <nsp_distribution bin_no="8" nsp_lower_bound_excl="51.83" nsp_upper_bound_incl="52.07" pos_freq="0.065" neg_freq="0.273" pos_to_neg_ratio="0.24" alt_pos_to_neg_ratio="5.51"/>
+         <nsp_distribution bin_no="9" nsp_lower_bound_excl="52.07" nsp_upper_bound_excl="inf" pos_freq="0.042" neg_freq="0.318" pos_to_neg_ratio="0.13" alt_pos_to_neg_ratio="5.51"/>
+      </nsp_information>
+      <ni_information>
+      </ni_information>
+      <protein_summary_data_filter min_probability="0.00" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.10" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.20" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.30" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.40" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.50" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.60" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.70" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.80" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.90" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.95" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.96" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.97" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.98" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.99" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="1.00" sensitivity="1.000" false_positive_error_rate="0.000" predicted_num_correct="1" predicted_num_incorrect="0" />
+</proteinprophet_details>
+</program_details>
+</protein_summary_header>
+<dataset_derivation generation_no="0">
+</dataset_derivation>
+<protein_group group_number="1" probability="1.0000">
+      <protein protein_name="sp|P02769|ALBU_BOVIN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="67.2" unique_stripped_peptides="AEFVEVTK+ALKAWSVAR+CCAADDKEACFAVEGPK+CCTESLVNR+CCTKPESER+DAFLGSFLYEYSR+DDPHACYSTVFDK+DDPHACYSTVFDKLK+DLGEEHFK+ECCDKPLLEK+ECCHGDLLECADDR+ECCHGDLLECADDRADLAK+ETYGDMADCCEK+EYEATLEECCAK+FKDLGEEHFK+FSALTPDETYVPK+GFQNALIVR+GLVLIAFSQYLQQCPFDEHVK+HLVDEPQNLIK+HLVDEPQNLIKQNCDQFEK+HPEYAVSVLLR+KVPQVSTPTLVEVSR+LAKEYEATLEECCAK+LCVLHEK+LCVLHEKTPVSEK+LFTFHADICTLPDTEK+LGEYGFQNALIVR+LKECCDKPLLEK+LKHLVDEPQNLIK+LKPDPNTLCDEFK+LKPDPNTLCDEFKADEK+LSQKFPK+LVNELTEFAK+MPCTEDYLSLILNR+QNCDQFEK+RHPEYAVSVLLR+RPCFSALTPDETYVPK+SHCIAEVEK+SLHTLFGDELCK+TCVADESHAGCEK+TVMENFVAFVDK+VASLRETYGDMADCCEK+VHKECCHGDLLECADDRADLAK+VPQVSTPTLVEVSR+YICDNQDTISSK+YLYEIAR+YNGVFQECCQAEDK" group_sibling_id="a" total_number_peptides="83" pct_spectrum_ids="100.00" confidence="1.00">
+         <parameter name="prot_length" value="0"/>
+         <annotation protein_description="Serum albumin OS=Bos taurus GN=ALB PE=1 SV=4"/>
+         <peptide peptide_sequence="GLVLIAFSQYLQQCPFDEHVK" charge="3" initial_probability="0.9936" nsp_adjusted_probability="0.9987" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.37" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="2491.2569">
+<modification_info modified_peptide="GLVLIAFSQYLQQCPFDEHVK">
+<mod_aminoacid_mass position="14" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="RPCFSALTPDETYVPK" charge="3" initial_probability="0.9896" nsp_adjusted_probability="0.9979" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.96" is_contributing_evidence="Y" calc_neutral_pep_mass="1879.9138">
+<modification_info modified_peptide="RPCFSALTPDETYVPK">
+<mod_aminoacid_mass position="3" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="LFTFHADICTLPDTEK" charge="2" initial_probability="0.9895" nsp_adjusted_probability="0.9978" peptide_group_designator="g" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1906.9135">
+<modification_info modified_peptide="LFTFHADICTLPDTEK">
+<mod_aminoacid_mass position="9" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="HLVDEPQNLIKQNCDQFEK" charge="3" initial_probability="0.9887" nsp_adjusted_probability="0.9977" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="2354.1325">
+<modification_info modified_peptide="HLVDEPQNLIKQNCDQFEK">
+<mod_aminoacid_mass position="14" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="LAKEYEATLEECCAK" charge="2" initial_probability="0.9868" nsp_adjusted_probability="0.9976" peptide_group_designator="f" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1813.8226">
+<modification_info modified_peptide="LAKEYEATLEECCAK">
+<mod_aminoacid_mass position="12" mass="160.030600"/>
+<mod_aminoacid_mass position="13" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="LGEYGFQNALIVR" charge="2" initial_probability="0.9856" nsp_adjusted_probability="0.9974" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="1" n_instances="3" exp_tot_instances="2.92" is_contributing_evidence="Y" calc_neutral_pep_mass="1478.7881">
+         </peptide>
+         <peptide peptide_sequence="CCAADDKEACFAVEGPK" charge="2" initial_probability="0.9853" nsp_adjusted_probability="0.9973" peptide_group_designator="d" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1909.7644">
+<modification_info modified_peptide="C[143]CAADDKEACFAVEGPK">
+<mod_aminoacid_mass position="1" mass="143.004100"/>
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+<mod_aminoacid_mass position="10" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="MPCTEDYLSLILNR" charge="2" initial_probability="0.9869" nsp_adjusted_probability="0.9973" peptide_group_designator="a" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1723.8273">
+<modification_info modified_peptide="MPCTEDYLSLILNR">
+<mod_aminoacid_mass position="3" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="RHPEYAVSVLLR" charge="3" initial_probability="0.9870" nsp_adjusted_probability="0.9973" peptide_group_designator="j" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1438.8045">
+         </peptide>
+         <peptide peptide_sequence="VHKECCHGDLLECADDRADLAK" charge="3" initial_probability="0.9852" nsp_adjusted_probability="0.9973" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="2611.1577">
+<modification_info modified_peptide="VHKECCHGDLLECADDRADLAK">
+<mod_aminoacid_mass position="5" mass="160.030600"/>
+<mod_aminoacid_mass position="6" mass="160.030600"/>
+<mod_aminoacid_mass position="13" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="TCVADESHAGCEK" charge="2" initial_probability="0.9847" nsp_adjusted_probability="0.9972" peptide_group_designator="k" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="1" n_instances="2" exp_tot_instances="1.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1462.5817">
+<modification_info modified_peptide="TCVADESHAGCEK">
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+<mod_aminoacid_mass position="11" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="KVPQVSTPTLVEVSR" charge="3" initial_probability="0.9848" nsp_adjusted_probability="0.9972" peptide_group_designator="b" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="1" n_instances="3" exp_tot_instances="2.92" is_contributing_evidence="Y" calc_neutral_pep_mass="1638.9304">
+         </peptide>
+         <peptide peptide_sequence="DAFLGSFLYEYSR" charge="2" initial_probability="0.9844" nsp_adjusted_probability="0.9971" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1566.7354">
+         </peptide>
+         <peptide peptide_sequence="MPCTEDYLSLILNR" charge="3" initial_probability="0.9841" nsp_adjusted_probability="0.9971" peptide_group_designator="a" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1723.8273">
+<modification_info modified_peptide="MPCTEDYLSLILNR">
+<mod_aminoacid_mass position="3" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="TVMENFVAFVDK" charge="2" initial_probability="0.9831" nsp_adjusted_probability="0.9969" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1398.6853">
+         </peptide>
+         <peptide peptide_sequence="YICDNQDTISSK" charge="2" initial_probability="0.9826" nsp_adjusted_probability="0.9968" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="2" n_instances="3" exp_tot_instances="2.73" is_contributing_evidence="Y" calc_neutral_pep_mass="1442.6347">
+<modification_info modified_peptide="YICDNQDTISSK">
+<mod_aminoacid_mass position="3" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="LKECCDKPLLEK" charge="2" initial_probability="0.9818" nsp_adjusted_probability="0.9966" peptide_group_designator="i" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.38" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1531.7738">
+<modification_info modified_peptide="LKECCDKPLLEK">
+<mod_aminoacid_mass position="4" mass="160.030600"/>
+<mod_aminoacid_mass position="5" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="CCAADDKEACFAVEGPK" charge="2" initial_probability="0.9812" nsp_adjusted_probability="0.9965" peptide_group_designator="c" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.39" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1926.7910">
+<modification_info modified_peptide="CCAADDKEACFAVEGPK">
+<mod_aminoacid_mass position="1" mass="160.030600"/>
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+<mod_aminoacid_mass position="10" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="FKDLGEEHFK" charge="2" initial_probability="0.9803" nsp_adjusted_probability="0.9964" peptide_group_designator="l" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.39" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1248.6139">
+         </peptide>
+         <peptide peptide_sequence="KVPQVSTPTLVEVSR" charge="2" initial_probability="0.9778" nsp_adjusted_probability="0.9959" peptide_group_designator="b" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.39" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1638.9304">
+         </peptide>
+         <peptide peptide_sequence="VASLRETYGDMADCCEK" charge="3" initial_probability="0.9761" nsp_adjusted_probability="0.9956" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.39" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="2003.8387">
+<modification_info modified_peptide="VASLRETYGDMADCCEK">
+<mod_aminoacid_mass position="14" mass="160.030600"/>
+<mod_aminoacid_mass position="15" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="CCAADDKEACFAVEGPK" charge="3" initial_probability="0.9746" nsp_adjusted_probability="0.9953" peptide_group_designator="c" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.39" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1926.7910">
+<modification_info modified_peptide="CCAADDKEACFAVEGPK">
+<mod_aminoacid_mass position="1" mass="160.030600"/>
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+<mod_aminoacid_mass position="10" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="CCAADDKEACFAVEGPK" charge="3" initial_probability="0.9728" nsp_adjusted_probability="0.9950" peptide_group_designator="d" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.39" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1909.7644">
+<modification_info modified_peptide="C[143]CAADDKEACFAVEGPK">
+<mod_aminoacid_mass position="1" mass="143.004100"/>
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+<mod_aminoacid_mass position="10" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="YNGVFQECCQAEDK" charge="2" initial_probability="0.9719" nsp_adjusted_probability="0.9948" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.39" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1746.6977">
+<modification_info modified_peptide="YNGVFQECCQAEDK">
+<mod_aminoacid_mass position="8" mass="160.030600"/>
+<mod_aminoacid_mass position="9" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="MPCTEDYLSLILNR" charge="2" initial_probability="0.9700" nsp_adjusted_probability="0.9944" peptide_group_designator="h" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.40" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1739.8222">
+<modification_info modified_peptide="M[147]PCTEDYLSLILNR">
+<mod_aminoacid_mass position="1" mass="147.035400"/>
+<mod_aminoacid_mass position="3" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="VASLRETYGDMADCCEK" charge="3" initial_probability="0.9684" nsp_adjusted_probability="0.9941" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.40" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="2019.8336">
+<modification_info modified_peptide="VASLRETYGDM[147]ADCCEK">
+<mod_aminoacid_mass position="11" mass="147.035400"/>
+<mod_aminoacid_mass position="14" mass="160.030600"/>
+<mod_aminoacid_mass position="15" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="EYEATLEECCAK" charge="2" initial_probability="0.9651" nsp_adjusted_probability="0.9935" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.40" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1501.6065">
+<modification_info modified_peptide="EYEATLEECCAK">
+<mod_aminoacid_mass position="9" mass="160.030600"/>
+<mod_aminoacid_mass position="10" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="TVMENFVAFVDK" charge="2" initial_probability="0.9645" nsp_adjusted_probability="0.9934" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.40" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.96" is_contributing_evidence="Y" calc_neutral_pep_mass="1414.6802">
+<modification_info modified_peptide="TVM[147]ENFVAFVDK">
+<mod_aminoacid_mass position="3" mass="147.035400"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="VPQVSTPTLVEVSR" charge="2" initial_probability="0.9593" nsp_adjusted_probability="0.9924" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.41" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.96" is_contributing_evidence="Y" calc_neutral_pep_mass="1510.8355">
+         </peptide>
+         <peptide peptide_sequence="LCVLHEKTPVSEK" charge="2" initial_probability="0.9503" nsp_adjusted_probability="0.9906" peptide_group_designator="m" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.42" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.95" is_contributing_evidence="Y" calc_neutral_pep_mass="1538.8126">
+<modification_info modified_peptide="LCVLHEKTPVSEK">
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="SLHTLFGDELCK" charge="3" initial_probability="0.9494" nsp_adjusted_probability="0.9904" peptide_group_designator="e" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.42" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.95" is_contributing_evidence="Y" calc_neutral_pep_mass="1418.6864">
+<modification_info modified_peptide="SLHTLFGDELCK">
+<mod_aminoacid_mass position="11" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="HLVDEPQNLIK" charge="2" initial_probability="0.9476" nsp_adjusted_probability="0.9900" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.42" n_sibling_peptides_bin="4" n_instances="2" exp_tot_instances="1.76" is_contributing_evidence="Y" calc_neutral_pep_mass="1304.7088">
+         </peptide>
+         <peptide peptide_sequence="SLHTLFGDELCK" charge="2" initial_probability="0.9369" nsp_adjusted_probability="0.9879" peptide_group_designator="e" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.43" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1418.6864">
+<modification_info modified_peptide="SLHTLFGDELCK">
+<mod_aminoacid_mass position="11" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="LAKEYEATLEECCAK" charge="3" initial_probability="0.9370" nsp_adjusted_probability="0.9879" peptide_group_designator="f" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.43" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1813.8226">
+<modification_info modified_peptide="LAKEYEATLEECCAK">
+<mod_aminoacid_mass position="12" mass="160.030600"/>
+<mod_aminoacid_mass position="13" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="ETYGDMADCCEK" charge="2" initial_probability="0.9342" nsp_adjusted_probability="0.9874" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.43" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="0.93" is_contributing_evidence="Y" calc_neutral_pep_mass="1477.5159">
+<modification_info modified_peptide="ETYGDMADCCEK">
+<mod_aminoacid_mass position="9" mass="160.030600"/>
+<mod_aminoacid_mass position="10" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="DDPHACYSTVFDK" charge="2" initial_probability="0.9284" nsp_adjusted_probability="0.9862" peptide_group_designator="p" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.44" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="0.93" is_contributing_evidence="Y" calc_neutral_pep_mass="1553.6456">
+<modification_info modified_peptide="DDPHACYSTVFDK">
+<mod_aminoacid_mass position="6" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="LFTFHADICTLPDTEK" charge="3" initial_probability="0.9235" nsp_adjusted_probability="0.9852" peptide_group_designator="g" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.44" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="0.92" is_contributing_evidence="Y" calc_neutral_pep_mass="1906.9135">
+<modification_info modified_peptide="LFTFHADICTLPDTEK">
+<mod_aminoacid_mass position="9" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="CCTKPESER" charge="2" initial_probability="0.8861" nsp_adjusted_probability="0.9772" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.48" n_sibling_peptides_bin="5" n_instances="2" exp_tot_instances="1.77" is_contributing_evidence="Y" calc_neutral_pep_mass="1148.4590">
+<modification_info modified_peptide="C[143]CTKPESER">
+<mod_aminoacid_mass position="1" mass="143.004100"/>
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="ECCHGDLLECADDR" charge="3" initial_probability="0.8345" nsp_adjusted_probability="0.9652" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.53" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="0.83" is_contributing_evidence="Y" calc_neutral_pep_mass="1748.6552">
+<modification_info modified_peptide="ECCHGDLLECADDR">
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+<mod_aminoacid_mass position="3" mass="160.030600"/>
+<mod_aminoacid_mass position="10" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="MPCTEDYLSLILNR" charge="3" initial_probability="0.8334" nsp_adjusted_probability="0.9650" peptide_group_designator="h" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.53" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="0.83" is_contributing_evidence="Y" calc_neutral_pep_mass="1739.8222">
+<modification_info modified_peptide="M[147]PCTEDYLSLILNR">
+<mod_aminoacid_mass position="1" mass="147.035400"/>
+<mod_aminoacid_mass position="3" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="CCTESLVNR" charge="2" initial_probability="0.8018" nsp_adjusted_probability="0.9570" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.56" n_sibling_peptides_bin="5" n_instances="3" exp_tot_instances="1.82" is_contributing_evidence="Y" calc_neutral_pep_mass="1137.4907">
+<modification_info modified_peptide="CCTESLVNR">
+<mod_aminoacid_mass position="1" mass="160.030600"/>
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="AEFVEVTK" charge="2" initial_probability="0.7965" nsp_adjusted_probability="0.9557" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.57" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="0.80" is_contributing_evidence="Y" calc_neutral_pep_mass="921.4807">
+         </peptide>
+         <peptide peptide_sequence="CCTESLVNR" charge="2" initial_probability="0.7965" nsp_adjusted_probability="0.9557" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.57" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="0.80" is_contributing_evidence="Y" calc_neutral_pep_mass="1120.4641">
+<modification_info modified_peptide="C[143]CTESLVNR">
+<mod_aminoacid_mass position="1" mass="143.004100"/>
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="ETYGDMADCCEK" charge="2" initial_probability="0.7806" nsp_adjusted_probability="0.9514" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.59" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="0.78" is_contributing_evidence="Y" calc_neutral_pep_mass="1493.5109">
+<modification_info modified_peptide="ETYGDM[147]ADCCEK">
+<mod_aminoacid_mass position="6" mass="147.035400"/>
+<mod_aminoacid_mass position="9" mass="160.030600"/>
+<mod_aminoacid_mass position="10" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="QNCDQFEK" charge="2" initial_probability="0.7487" nsp_adjusted_probability="0.9425" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.62" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="0.75" is_contributing_evidence="Y" calc_neutral_pep_mass="1050.4076">
+<modification_info modified_peptide="Q[111]NCDQFEK">
+<mod_aminoacid_mass position="1" mass="111.032100"/>
+<mod_aminoacid_mass position="3" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="LCVLHEK" charge="2" initial_probability="0.7401" nsp_adjusted_probability="0.9400" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.63" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="0.74" is_contributing_evidence="Y" calc_neutral_pep_mass="897.4742">
+<modification_info modified_peptide="LCVLHEK">
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="SHCIAEVEK" charge="2" initial_probability="0.7352" nsp_adjusted_probability="0.9386" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.63" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="0.74" is_contributing_evidence="Y" calc_neutral_pep_mass="1071.5019">
+<modification_info modified_peptide="SHCIAEVEK">
+<mod_aminoacid_mass position="3" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="LKPDPNTLCDEFK" charge="2" initial_probability="0.7301" nsp_adjusted_probability="0.9371" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.64" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="0.73" is_contributing_evidence="Y" calc_neutral_pep_mass="1575.7603">
+<modification_info modified_peptide="LKPDPNTLCDEFK">
+<mod_aminoacid_mass position="9" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="LKECCDKPLLEK" charge="3" initial_probability="0.6465" nsp_adjusted_probability="0.9096" peptide_group_designator="i" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.72" n_sibling_peptides_bin="7" n_instances="2" exp_tot_instances="0.74" is_contributing_evidence="Y" calc_neutral_pep_mass="1531.7738">
+<modification_info modified_peptide="LKECCDKPLLEK">
+<mod_aminoacid_mass position="4" mass="160.030600"/>
+<mod_aminoacid_mass position="5" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="LKHLVDEPQNLIK" charge="3" initial_probability="0.6284" nsp_adjusted_probability="0.9030" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.74" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.63" is_contributing_evidence="Y" calc_neutral_pep_mass="1545.8879">
+         </peptide>
+         <peptide peptide_sequence="RHPEYAVSVLLR" charge="2" initial_probability="0.6173" nsp_adjusted_probability="0.8988" peptide_group_designator="j" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.75" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.62" is_contributing_evidence="Y" calc_neutral_pep_mass="1438.8045">
+         </peptide>
+         <peptide peptide_sequence="HPEYAVSVLLR" charge="2" initial_probability="0.5477" nsp_adjusted_probability="0.8477" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.82" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.55" is_contributing_evidence="Y" calc_neutral_pep_mass="1282.7033">
+         </peptide>
+         <peptide peptide_sequence="LKPDPNTLCDEFKADEK" charge="2" initial_probability="0.5470" nsp_adjusted_probability="0.8470" peptide_group_designator="o" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.82" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.55" is_contributing_evidence="Y" calc_neutral_pep_mass="2018.9619">
+<modification_info modified_peptide="LKPDPNTLCDEFKADEK">
+<mod_aminoacid_mass position="9" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="DLGEEHFK" charge="2" initial_probability="0.5352" nsp_adjusted_probability="0.8352" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.83" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.54" is_contributing_evidence="Y" calc_neutral_pep_mass="973.4505">
+         </peptide>
+         <peptide peptide_sequence="TCVADESHAGCEK" charge="3" initial_probability="0.5318" nsp_adjusted_probability="0.8318" peptide_group_designator="k" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.83" n_sibling_peptides_bin="7" n_instances="2" exp_tot_instances="0.93" is_contributing_evidence="Y" calc_neutral_pep_mass="1462.5817">
+<modification_info modified_peptide="TCVADESHAGCEK">
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+<mod_aminoacid_mass position="11" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="LVNELTEFAK" charge="2" initial_probability="0.4875" nsp_adjusted_probability="0.7875" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="51.88" n_sibling_peptides_bin="8" n_instances="3" exp_tot_instances="1.30" is_contributing_evidence="Y" calc_neutral_pep_mass="1162.6234">
+         </peptide>
+         <peptide peptide_sequence="FKDLGEEHFK" charge="3" initial_probability="0.3687" nsp_adjusted_probability="0.3687" peptide_group_designator="l" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="52.00" n_sibling_peptides_bin="8" n_instances="1" exp_tot_instances="0.37" is_contributing_evidence="Y" calc_neutral_pep_mass="1248.6139">
+         </peptide>
+         <peptide peptide_sequence="LCVLHEKTPVSEK" charge="3" initial_probability="0.3687" nsp_adjusted_probability="0.3687" peptide_group_designator="m" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="52.00" n_sibling_peptides_bin="8" n_instances="1" exp_tot_instances="0.37" is_contributing_evidence="Y" calc_neutral_pep_mass="1538.8126">
+<modification_info modified_peptide="LCVLHEKTPVSEK">
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="DDPHACYSTVFDKLK" charge="2" initial_probability="0.3624" nsp_adjusted_probability="0.3624" peptide_group_designator="n" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="52.00" n_sibling_peptides_bin="8" n_instances="1" exp_tot_instances="0.36" is_contributing_evidence="Y" calc_neutral_pep_mass="1794.8247">
+<modification_info modified_peptide="DDPHACYSTVFDKLK">
+<mod_aminoacid_mass position="6" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="ECCDKPLLEK" charge="2" initial_probability="0.3410" nsp_adjusted_probability="0.3410" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="52.03" n_sibling_peptides_bin="8" n_instances="1" exp_tot_instances="0.34" is_contributing_evidence="Y" calc_neutral_pep_mass="1290.5948">
+<modification_info modified_peptide="ECCDKPLLEK">
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+<mod_aminoacid_mass position="3" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="DDPHACYSTVFDKLK" charge="3" initial_probability="0.3223" nsp_adjusted_probability="0.3223" peptide_group_designator="n" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="52.04" n_sibling_peptides_bin="8" n_instances="1" exp_tot_instances="0.32" is_contributing_evidence="Y" calc_neutral_pep_mass="1794.8247">
+<modification_info modified_peptide="DDPHACYSTVFDKLK">
+<mod_aminoacid_mass position="6" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="ALKAWSVAR" charge="2" initial_probability="0.2978" nsp_adjusted_probability="0.2978" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="52.07" n_sibling_peptides_bin="8" n_instances="1" exp_tot_instances="0.30" is_contributing_evidence="Y" calc_neutral_pep_mass="1000.5818">
+         </peptide>
+         <peptide peptide_sequence="LSQKFPK" charge="2" initial_probability="0.2771" nsp_adjusted_probability="0.2771" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="52.09" n_sibling_peptides_bin="9" n_instances="1" exp_tot_instances="0.28" is_contributing_evidence="Y" calc_neutral_pep_mass="846.4963">
+         </peptide>
+         <peptide peptide_sequence="GFQNALIVR" charge="2" initial_probability="0.2518" nsp_adjusted_probability="0.2518" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="52.11" n_sibling_peptides_bin="9" n_instances="1" exp_tot_instances="0.25" is_contributing_evidence="Y" calc_neutral_pep_mass="1016.5767">
+         </peptide>
+         <peptide peptide_sequence="YLYEIAR" charge="2" initial_probability="0.2280" nsp_adjusted_probability="0.2280" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="52.14" n_sibling_peptides_bin="9" n_instances="1" exp_tot_instances="0.23" is_contributing_evidence="Y" calc_neutral_pep_mass="926.4861">
+         </peptide>
+         <peptide peptide_sequence="LKPDPNTLCDEFKADEK" charge="3" initial_probability="0.2009" nsp_adjusted_probability="0.2009" peptide_group_designator="o" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="52.17" n_sibling_peptides_bin="9" n_instances="1" exp_tot_instances="0.20" is_contributing_evidence="Y" calc_neutral_pep_mass="2018.9619">
+<modification_info modified_peptide="LKPDPNTLCDEFKADEK">
+<mod_aminoacid_mass position="9" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="ECCHGDLLECADDRADLAK" charge="3" initial_probability="0.1899" nsp_adjusted_probability="0.1899" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="52.18" n_sibling_peptides_bin="9" n_instances="1" exp_tot_instances="0.19" is_contributing_evidence="N" calc_neutral_pep_mass="2246.9354">
+<modification_info modified_peptide="ECCHGDLLECADDRADLAK">
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+<mod_aminoacid_mass position="3" mass="160.030600"/>
+<mod_aminoacid_mass position="10" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="DDPHACYSTVFDK" charge="3" initial_probability="0.0690" nsp_adjusted_probability="0.0690" peptide_group_designator="p" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="52.37" n_sibling_peptides_bin="9" n_instances="1" exp_tot_instances="0.07" is_contributing_evidence="N" calc_neutral_pep_mass="1553.6456">
+<modification_info modified_peptide="DDPHACYSTVFDK">
+<mod_aminoacid_mass position="6" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="FSALTPDETYVPK" charge="2" initial_probability="0.0687" nsp_adjusted_probability="0.0687" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="52.37" n_sibling_peptides_bin="9" n_instances="1" exp_tot_instances="0.07" is_contributing_evidence="N" calc_neutral_pep_mass="1466.7293">
+         </peptide>
+      </protein>
+</protein_group>
+</protein_summary>

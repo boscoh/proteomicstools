@@ -1,0 +1,171 @@
+<head>
+<style type='text/css'>
+/*<![CDATA[*/
+    body {
+      width: 650px;
+      margin: 80px auto;
+      font-family: Helvetica;
+      font-size: 18px;
+      color: #333;
+      letter-spacing: 0.1em;
+      line-height: 1.5em; }
+    h1 {
+      font-size: 50px; }
+    h1, h2, h3 {
+      font-family: Helvetica;
+      letter-spacing: 0em;
+      line-height: 1em; }
+    .timestamp {
+      font-size: 14px;
+      color: #999;
+      font-family: Helvetica; }
+    code {
+      background-color: #F9F9F9;
+      border: 1px solid #DDD;
+      font-size: 14px;
+      padding: 2px;
+    }
+    pre {
+      margin: 0;
+    }
+    .codehilite {
+      background-color: #F9F9F9;
+      border: 1px solid #DDD;
+      overflow: auto;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 14px;
+      line-height: 1.2em;
+      padding-left: 2em;  }
+
+    @media screen and (max-width: 700px) {
+      body {
+        width: auto;
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 30px; } }
+
+    @media screen and (max-width: 450px) {
+      body {
+        margin-top: 20px;
+        width: auto;
+        font-size: 14px;
+        margin-left: 15px;
+        margin-right: 15px; }
+      code,
+      .codehilite {
+        font-size: 12px;
+      }
+      h1 {
+        font-size: 26px; }
+      h2, h3 {
+        font-size: 16px; }
+      h1, h2, h3 {
+        line-height: 1em; } }
+
+/*]]>*/
+</style>
+</head>
+<body>
+
+  <div class='timestamp'>
+    
+    13 Sep 2013
+
+  </div>
+  <h1></h1>
+
+  <h1>tppit</h1>
+<p><code>tppit</code> is a Python module that wraps the Transatlantic Proteomics Pipeline (TPP).</p>
+<p>The TPP combines a number of tools that convert shotgun massspec experimental data into peptides and protein identifications, and in some cases, even quantification. </p>
+<p>However, these tools have inconsistent interfaces and requires a bit of glue to tie them together. <code>tppit</code> wraps these command-line tools so that a consistent interface can be run in a automated workflow.</p>
+<h2>Typical Protein Identification workflow</h2>
+<ol>
+<li>
+<p><code>msconvert</code> converts raw mass-spec data into the standard <code>mzXML</code>/<code>mzML</code> formats.</p>
+</li>
+<li>
+<p><code>tandem</code> is one (of many) search engines that matches massspec spectra to a database of candidate peptides (typically given as a fasta file of protein sequences with digestion enzyme).</p>
+</li>
+<li>
+<p><code>PeptideProphetParser</code> takes a set of spectrum-peptide matches with given expectations (in <code>.pep.xml</code> format) and assigns probabilities to the peptides by assuming a bi-modal frequency distribution of  expectations, corresponding to incorrect/correct matches.</p>
+</li>
+<li>
+<p><code>ProteinProphetParse</code> attempts to find a minimal grouping of proteins using parsimony based on the number of unique peptides in each proteins and the probabilities of each peptide.</p>
+</li>
+</ol>
+<h2>Why Python?</h2>
+<p>Doing this analysis means you will be processing a lot of files, and all of them will be interrelated in a lot of fiddly ways. Python is great at handling these details.</p>
+<p>First load the module:</p>
+<div class="codehilite"><pre>import tppit
+</pre></div>
+
+
+<p>Now <code>tppit</code> will search for the TPP programs in the system path, but you can always specify it directly:</p>
+<div class="codehilite"><pre>tppit.other_binary_dirs.append(&#39;/usr/local/tpp/bin&#39;)
+</pre></div>
+
+
+<h2>Matching spectra to peptides</h2>
+<p>Let's say you have some MS/MS spectra in the form of <code>mzXML</code> files in the <code>example</code> directory: </p>
+<div class="codehilite"><pre>mzxmls = [&#39;example/xtandem/Seq2328{}_E1O1.mzXML&#39;.format(i) for i in [2,3,4]]
+</pre></div>
+
+
+<p>You have some candidate proteins in: </p>
+<div class="codehilite"><pre>fasta = &#39;example/xtandem/orf_trans.fasta&#39;
+</pre></div>
+
+
+<p>Then run the search-engine provided by the TPP <code>x!tandem</code> with:</p>
+<div class="codehilite"><pre>for mzxml in mzxmls:
+  tppit.xtandem_match_spectra(mzxml, fasta)
+</pre></div>
+
+
+<p>The resultant spectrum-peptide matches are saved in:</p>
+<div class="codehilite"><pre>tandems = [tppit.change_ext(m, &#39;.tandem&#39;) for m in mzxmls]
+</pre></div>
+
+
+<h2>Converting to .pep.xml for further processing</h2>
+<p>Okay so you have a set of spectrum-peptide matches. For more TPP goodness, they need to be converted to <code>.pep.xml</code> format.</p>
+<p>Let's say they are in the form of <code>.tandem</code> files as above. We need to convert them to <code>.pep.xml</code> files:</p>
+<div class="codehilite"><pre>for tandem, pepxml in zip(tandems, pepxmls):
+  tppit.tandem2pepxml(tandem, pepxml)
+pepxmls = [t + &#39;.pep.xml&#39; for t in tandems]
+</pre></div>
+
+
+<p>As another example, there are some mascot <code>.dat</code> files in the examples:</p>
+<div class="codehilite"><pre>mascots = [&#39;example/mascot/F02204{}.dat&#39;.format(i) for i in [3, 5]]
+</pre></div>
+
+
+<p>Now the conversion of mascot files to <code>.pep.xml</code> will require the sequence database, so:</p>
+<div class="codehilite"><pre>fasta_db = &#39;../db/HUMAN.fasta&#39;
+</pre></div>
+
+
+<p>Now run the translator:</p>
+<div class="codehilite"><pre>for mascot, pepxml in zip(mascots, pepxmls):
+  tppit.mascot2pepxml(mascot, fasta_db, pepxml)
+pepxmls = [tppit.change_ext(m, &#39;.pep.xml&#39;) for m in mascots]
+</pre></div>
+
+
+<p>So finally, let's predict the proteins:</p>
+<div class="codehilite"><pre>protxml = &#39;example/xtandem/interact.prot.xml&#39;
+tppit.resolve_proteins(pepxmls, protxml)
+</pre></div>
+
+
+<p>The function <code>resolve_proteins</code> will:</p>
+<ol>
+<li>combine all the <code>.pep.xml</code> files with <code>InteractParser</code></li>
+<li>generate peptie probabilities with <code>PeptideProphetParser</code> </li>
+<li>generate parsimony protein lists with <code>ProteinProphetParser</code></li>
+</ol>
+
+
+</body>

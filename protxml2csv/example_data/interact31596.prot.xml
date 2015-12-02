@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost/tpp/data/Oded/NuritH2O2_May2012/interact31596.prot.xsl"?>
+<protein_summary xmlns="http://regis-web.systemsbiology.net/protXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://sashimi.sourceforge.net/schema_revision/protXML/protXML_v6.xsd" summary_xml="/Library/WebServer/Documents/tpp/data/Oded/NuritH2O2_May2012/interact31596.prot.xml">
+<protein_summary_header reference_database="/Library/WebServer/Documents/tpp/data/dbase/orf_trans.fasta" residue_substitution_list="I -> L" source_files="/Library/WebServer/Documents/tpp/data/Oded/NuritH2O2_May2012/interact31596.pep.xml" source_files_alt="/Library/WebServer/Documents/tpp/data/Oded/NuritH2O2_May2012/interact31596.pep.xml" min_peptide_probability="0.20" min_peptide_weight="0.50" num_predicted_correct_prots="12.6" num_input_1_spectra="0" num_input_2_spectra="150" num_input_3_spectra="35" num_input_4_spectra="0" num_input_5_spectra="0" initial_min_peptide_prob="0.05" total_no_spectrum_ids="123.5" sample_enzyme="trypsin">
+<program_details analysis="proteinprophet" time="2012-05-29T21:38:44" version=" Insilicos_LabKey_C++ (TPP v4.5 RAPTURE rev 2, Build 201204060830 (linux))">
+<proteinprophet_details  occam_flag="Y" groups_flag="Y" degen_flag="Y" nsp_flag="Y" initial_peptide_wt_iters="1" nsp_distribution_iters="2" final_peptide_wt_iters="0" run_options="XML">
+      <nsp_information neighboring_bin_smoothing="Y">
+         <nsp_distribution bin_no="0" nsp_lower_bound_incl="0.00" nsp_upper_bound_incl="0.00" pos_freq="0.074" neg_freq="0.553" pos_to_neg_ratio="0.13"/>
+         <nsp_distribution bin_no="1" nsp_lower_bound_excl="0.00" nsp_upper_bound_incl="2.84" pos_freq="0.083" neg_freq="0.157" pos_to_neg_ratio="0.53"/>
+         <nsp_distribution bin_no="2" nsp_lower_bound_excl="2.84" nsp_upper_bound_incl="7.82" pos_freq="0.126" neg_freq="0.032" pos_to_neg_ratio="3.94"/>
+         <nsp_distribution bin_no="3" nsp_lower_bound_excl="7.82" nsp_upper_bound_incl="22.04" pos_freq="0.161" neg_freq="0.037" pos_to_neg_ratio="4.35"/>
+         <nsp_distribution bin_no="4" nsp_lower_bound_excl="22.04" nsp_upper_bound_incl="43.25" pos_freq="0.207" neg_freq="0.066" pos_to_neg_ratio="3.12" alt_pos_to_neg_ratio="4.35"/>
+         <nsp_distribution bin_no="5" nsp_lower_bound_excl="43.25" nsp_upper_bound_incl="43.25" pos_freq="0.102" neg_freq="0.028" pos_to_neg_ratio="3.69" alt_pos_to_neg_ratio="4.35"/>
+         <nsp_distribution bin_no="6" nsp_lower_bound_excl="43.25" nsp_upper_bound_incl="43.27" pos_freq="0.137" neg_freq="0.033" pos_to_neg_ratio="4.15" alt_pos_to_neg_ratio="4.35"/>
+         <nsp_distribution bin_no="7" nsp_lower_bound_excl="43.27" nsp_upper_bound_excl="inf" pos_freq="0.110" neg_freq="0.094" pos_to_neg_ratio="1.17" alt_pos_to_neg_ratio="4.35"/>
+      </nsp_information>
+      <ni_information>
+      </ni_information>
+      <protein_summary_data_filter min_probability="0.00" sensitivity="1.000" false_positive_error_rate="0.789" predicted_num_correct="13" predicted_num_incorrect="47" />
+      <protein_summary_data_filter min_probability="0.10" sensitivity="1.000" false_positive_error_rate="0.097" predicted_num_correct="13" predicted_num_incorrect="1" />
+      <protein_summary_data_filter min_probability="0.20" sensitivity="1.000" false_positive_error_rate="0.097" predicted_num_correct="13" predicted_num_incorrect="1" />
+      <protein_summary_data_filter min_probability="0.30" sensitivity="1.000" false_positive_error_rate="0.097" predicted_num_correct="13" predicted_num_incorrect="1" />
+      <protein_summary_data_filter min_probability="0.40" sensitivity="0.976" false_positive_error_rate="0.051" predicted_num_correct="12" predicted_num_incorrect="1" />
+      <protein_summary_data_filter min_probability="0.50" sensitivity="0.976" false_positive_error_rate="0.051" predicted_num_correct="12" predicted_num_incorrect="1" />
+      <protein_summary_data_filter min_probability="0.60" sensitivity="0.976" false_positive_error_rate="0.051" predicted_num_correct="12" predicted_num_incorrect="1" />
+      <protein_summary_data_filter min_probability="0.70" sensitivity="0.976" false_positive_error_rate="0.051" predicted_num_correct="12" predicted_num_incorrect="1" />
+      <protein_summary_data_filter min_probability="0.80" sensitivity="0.919" false_positive_error_rate="0.032" predicted_num_correct="12" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.90" sensitivity="0.789" false_positive_error_rate="0.003" predicted_num_correct="10" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.95" sensitivity="0.789" false_positive_error_rate="0.003" predicted_num_correct="10" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.96" sensitivity="0.789" false_positive_error_rate="0.003" predicted_num_correct="10" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.97" sensitivity="0.789" false_positive_error_rate="0.003" predicted_num_correct="10" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.98" sensitivity="0.789" false_positive_error_rate="0.003" predicted_num_correct="10" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.99" sensitivity="0.711" false_positive_error_rate="0.002" predicted_num_correct="9" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="1.00" sensitivity="0.554" false_positive_error_rate="0.000" predicted_num_correct="7" predicted_num_incorrect="0" />
+</proteinprophet_details>
+</program_details>
+</protein_summary_header>
+<dataset_derivation generation_no="0">
+</dataset_derivation>
+<protein_group group_number="1" probability="1.0000">
+      <protein protein_name="YBR170C" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="14.0" unique_stripped_peptides="CQPSAITLQQQEFR+FGYMYGSYSK+FVSSTGFPWSNR+SEIINEFIQAWR+SNEYGITVK+VSCQENDLFGTVIEK+YDNTPLGIK" group_sibling_id="a" total_number_peptides="7" pct_spectrum_ids="5.57" confidence="1.00">
+         <parameter name="prot_length" value="581"/>
+         <annotation protein_description="NPL4 SGDID:S000000374, Chr II from 578081-576339, reverse complement, Verified ORF, 'Endoplasmic reticulum and nuclear membrane protein, forms a complex with Cdc48p and Ufd1p that recognizes ubiquitinated proteins in the endoplasmic reticulum and delivers them to the proteasome for degradation'"/>
+         <peptide peptide_sequence="CQPSAITLQQQEFR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="5.88" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1704.8253">
+<modification_info modified_peptide="CQPSAITLQQQEFR">
+<mod_aminoacid_mass position="1" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="FVSSTGFPWSNR" charge="2" initial_probability="0.9989" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="5.88" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1383.6571">
+         </peptide>
+         <peptide peptide_sequence="VSCQENDLFGTVIEK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="5.88" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1737.8243">
+<modification_info modified_peptide="VSCQENDLFGTVIEK">
+<mod_aminoacid_mass position="3" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="SEIINEFIQAWR" charge="2" initial_probability="0.9976" nsp_adjusted_probability="0.9994" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="5.88" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1504.7674">
+         </peptide>
+         <peptide peptide_sequence="SNEYGITVK" charge="2" initial_probability="0.9780" nsp_adjusted_probability="0.9943" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="5.90" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1009.5080">
+         </peptide>
+         <peptide peptide_sequence="YDNTPLGIK" charge="2" initial_probability="0.9754" nsp_adjusted_probability="0.9936" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="5.90" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1019.5287">
+         </peptide>
+         <peptide peptide_sequence="FGYMYGSYSK" charge="2" initial_probability="0.9277" nsp_adjusted_probability="0.9806" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="5.95" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="0.93" is_contributing_evidence="Y" calc_neutral_pep_mass="1201.5114">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="2" probability="1.0000">
+      <protein protein_name="YDL007W" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="12.4" unique_stripped_peptides="AVANQTSATFLR+GVILYGAPGTGK+LPNIYPSTR+VAGENAPSIVFIDEIDAIGTK" group_sibling_id="a" total_number_peptides="3" pct_spectrum_ids="2.58" confidence="1.00">
+         <parameter name="prot_length" value="438"/>
+         <annotation protein_description="RPT2 SGDID:S000002165, Chr IV from 438045-439358, Verified ORF, 'One of six ATPases of the 19S regulatory particle of the 26S proteasome involved in the degradation of ubiquitinated substrates; required for normal peptide hydrolysis by the core 20S particle'"/>
+         <peptide peptide_sequence="VAGENAPSIVFIDEIDAIGTK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9981" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.18" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="2158.1157">
+         </peptide>
+         <peptide peptide_sequence="GVILYGAPGTGK" charge="2" initial_probability="0.9987" nsp_adjusted_probability="0.9975" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.18" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1131.6288">
+         </peptide>
+         <peptide peptide_sequence="AVANQTSATFLR" charge="2" initial_probability="0.9943" nsp_adjusted_probability="0.9893" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.19" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1277.6728">
+         </peptide>
+         <peptide peptide_sequence="LPNIYPSTR" charge="2" initial_probability="0.1907" nsp_adjusted_probability="0.1907" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.99" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="0.19" is_contributing_evidence="N" calc_neutral_pep_mass="1059.5713">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="3" probability="1.0000">
+      <protein protein_name="YDR170C" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="2.3" unique_stripped_peptides="SCLQQLILQNVSK+SSELSGNAIVDFIK+VQSLALDCLSK+YFLSVIQR" group_sibling_id="a" total_number_peptides="4" pct_spectrum_ids="2.90" confidence="1.00">
+         <parameter name="prot_length" value="2010"/>
+         <annotation protein_description="SEC7 SGDID:S000002577, Chr IV from 802220-796191, reverse complement, Verified ORF, 'Guanine nucleotide exchange factor (GEF) for ADP ribosylation factors involved in proliferation of the Golgi, intra-Golgi transport and ER-to-Golgi transport; found in the cytoplasm and on Golgi-associated coated vesicles'"/>
+         <peptide peptide_sequence="SCLQQLILQNVSK" charge="2" initial_probability="0.9976" nsp_adjusted_probability="0.9955" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.58" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1529.8235">
+<modification_info modified_peptide="SCLQQLILQNVSK">
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="SSELSGNAIVDFIK" charge="2" initial_probability="0.9900" nsp_adjusted_probability="0.9813" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.59" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1478.7617">
+         </peptide>
+         <peptide peptide_sequence="YFLSVIQR" charge="2" initial_probability="0.8568" nsp_adjusted_probability="0.7600" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.72" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="0.86" is_contributing_evidence="Y" calc_neutral_pep_mass="1024.5705">
+         </peptide>
+         <peptide peptide_sequence="VQSLALDCLSK" charge="2" initial_probability="0.7323" nsp_adjusted_probability="0.5913" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.84" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="0.73" is_contributing_evidence="Y" calc_neutral_pep_mass="1232.6434">
+<modification_info modified_peptide="VQSLALDCLSK">
+<mod_aminoacid_mass position="8" mass="160.030600"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="4" probability="1.0000">
+      <protein protein_name="YER021W" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="42.4" unique_stripped_peptides="AIRDGVIEAK+AMLINLILR+DDTYQLCVR+DFLNNGEVDSASDFISK+DGVIEAK+ELEQLVEFNR+FANQLHDEYLVSMR+FTSTITK+IASLKHDNETK+KYAEEDQVQELLK+LEYPHTDVSSSLEAR+LNLDSEQTVEYMVSR+NSYPASFYSVNTEK+NSYPASFYSVNTEKK+QLLLKDDTYQLCVR+SLGFLQQSNK+SLKDLSSLR+SSEEINSDNQNIILR+SSVPGSAELR+TTLTLDPR+VVIPNLLCYYNLR+YAEEDQVQELLK+YFFYLSK" group_sibling_id="a" total_number_peptides="25" pct_spectrum_ids="19.55" confidence="1.00">
+         <parameter name="prot_length" value="524"/>
+         <annotation protein_description="RPN3 SGDID:S000000823, Chr V from 196947-198518, Verified ORF, 'Essential, non-ATPase regulatory subunit of the 26S proteasome lid, similar to the p58 subunit of the human 26S proteasome; temperature-sensitive alleles cause metaphase arrest, suggesting a role for the proteasome in cell cycle control'"/>
+         <peptide peptide_sequence="DFLNNGEVDSASDFISK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1856.8428">
+         </peptide>
+         <peptide peptide_sequence="FANQLHDEYLVSMR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" peptide_group_designator="a" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1721.8197">
+         </peptide>
+         <peptide peptide_sequence="LNLDSEQTVEYMVSR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1782.8457">
+         </peptide>
+         <peptide peptide_sequence="NSYPASFYSVNTEK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="3" n_instances="2" exp_tot_instances="1.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1605.7307">
+         </peptide>
+         <peptide peptide_sequence="VVIPNLLCYYNLR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1635.8807">
+<modification_info modified_peptide="VVIPNLLCYYNLR">
+<mod_aminoacid_mass position="8" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="YAEEDQVQELLK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1463.7144">
+         </peptide>
+         <peptide peptide_sequence="DDTYQLCVR" charge="2" initial_probability="0.9987" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1168.5182">
+<modification_info modified_peptide="DDTYQLCVR">
+<mod_aminoacid_mass position="7" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="ELEQLVEFNR" charge="2" initial_probability="0.9985" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1275.6459">
+         </peptide>
+         <peptide peptide_sequence="LEYPHTDVSSSLEAR" charge="2" initial_probability="0.9989" nsp_adjusted_probability="0.9997" peptide_group_designator="b" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1702.8162">
+         </peptide>
+         <peptide peptide_sequence="NSYPASFYSVNTEKK" charge="2" initial_probability="0.9988" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1733.8260">
+         </peptide>
+         <peptide peptide_sequence="QLLLKDDTYQLCVR" charge="2" initial_probability="0.9989" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1746.8974">
+<modification_info modified_peptide="Q[111]LLLKDDTYQLCVR">
+<mod_aminoacid_mass position="1" mass="111.032100"/>
+<mod_aminoacid_mass position="12" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="KYAEEDQVQELLK" charge="2" initial_probability="0.9982" nsp_adjusted_probability="0.9996" peptide_group_designator="c" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1591.8093">
+         </peptide>
+         <peptide peptide_sequence="SSEEINSDNQNIILR" charge="2" initial_probability="0.9983" nsp_adjusted_probability="0.9996" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1730.8435">
+         </peptide>
+         <peptide peptide_sequence="IASLKHDNETK" charge="2" initial_probability="0.9969" nsp_adjusted_probability="0.9993" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1254.6568">
+         </peptide>
+         <peptide peptide_sequence="QLLLKDDTYQLCVR" charge="2" initial_probability="0.9945" nsp_adjusted_probability="0.9987" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.04" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1763.9237">
+<modification_info modified_peptide="QLLLKDDTYQLCVR">
+<mod_aminoacid_mass position="12" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="AMLINLILR" charge="2" initial_probability="0.9557" nsp_adjusted_probability="0.9895" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.08" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.96" is_contributing_evidence="Y" calc_neutral_pep_mass="1071.6474">
+<modification_info modified_peptide="AM[147]LINLILR">
+<mod_aminoacid_mass position="2" mass="147.035400"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="SLGFLQQSNK" charge="2" initial_probability="0.9474" nsp_adjusted_probability="0.9874" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.09" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.95" is_contributing_evidence="Y" calc_neutral_pep_mass="1120.5876">
+         </peptide>
+         <peptide peptide_sequence="YFFYLSK" charge="2" initial_probability="0.9404" nsp_adjusted_probability="0.9856" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.10" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.94" is_contributing_evidence="Y" calc_neutral_pep_mass="966.4851">
+         </peptide>
+         <peptide peptide_sequence="AMLINLILR" charge="2" initial_probability="0.9374" nsp_adjusted_probability="0.9849" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.10" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1055.6525">
+         </peptide>
+         <peptide peptide_sequence="FANQLHDEYLVSMR" charge="3" initial_probability="0.9217" nsp_adjusted_probability="0.9809" peptide_group_designator="a" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.11" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.92" is_contributing_evidence="Y" calc_neutral_pep_mass="1721.8195">
+         </peptide>
+         <peptide peptide_sequence="TTLTLDPR" charge="2" initial_probability="0.9013" nsp_adjusted_probability="0.9755" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.14" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.90" is_contributing_evidence="Y" calc_neutral_pep_mass="915.5025">
+         </peptide>
+         <peptide peptide_sequence="DGVIEAK" charge="2" initial_probability="0.8953" nsp_adjusted_probability="0.9738" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.14" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.90" is_contributing_evidence="Y" calc_neutral_pep_mass="730.3861">
+         </peptide>
+         <peptide peptide_sequence="LEYPHTDVSSSLEAR" charge="3" initial_probability="0.8475" nsp_adjusted_probability="0.9603" peptide_group_designator="b" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.19" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.85" is_contributing_evidence="Y" calc_neutral_pep_mass="1702.8162">
+         </peptide>
+         <peptide peptide_sequence="FTSTITK" charge="2" initial_probability="0.4012" nsp_adjusted_probability="0.4012" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.64" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.40" is_contributing_evidence="Y" calc_neutral_pep_mass="796.4330">
+         </peptide>
+         <peptide peptide_sequence="SSVPGSAELR" charge="2" initial_probability="0.1657" nsp_adjusted_probability="0.1657" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.87" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.17" is_contributing_evidence="N" calc_neutral_pep_mass="1001.5141">
+         </peptide>
+         <peptide peptide_sequence="SLKDLSSLR" charge="2" initial_probability="0.1473" nsp_adjusted_probability="0.1473" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="22.89" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.15" is_contributing_evidence="N" calc_neutral_pep_mass="1017.5818">
+         </peptide>
+         <peptide peptide_sequence="AIRDGVIEAK" charge="3" initial_probability="0.0732" nsp_adjusted_probability="0.0732" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="23.04" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.07" is_contributing_evidence="N" calc_neutral_pep_mass="1070.6084">
+         </peptide>
+         <peptide peptide_sequence="KYAEEDQVQELLK" charge="3" initial_probability="0.0647" nsp_adjusted_probability="0.0647" peptide_group_designator="c" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="23.04" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.06" is_contributing_evidence="N" calc_neutral_pep_mass="1591.8093">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="5" probability="1.0000">
+      <protein protein_name="YFL039C" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="13.1" unique_stripped_peptides="AGFAGDDAPR+AVFPSIVGRPR+DSYVGDEAQSKR+SYELPDGQVITIGNER" group_sibling_id="a" total_number_peptides="4" pct_spectrum_ids="3.23" confidence="1.00">
+         <parameter name="prot_length" value="376"/>
+         <annotation protein_description="ACT1 SGDID:S000001855, Chr VI from 54695-54686,54377-53260, reverse complement, Verified ORF, 'Actin, structural protein involved in cell polarization, endocytosis, and other cytoskeletal functions'"/>
+         <peptide peptide_sequence="AGFAGDDAPR" charge="2" initial_probability="0.9989" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.99" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="975.4410">
+         </peptide>
+         <peptide peptide_sequence="DSYVGDEAQSKR" charge="2" initial_probability="0.9989" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.99" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1353.6160">
+         </peptide>
+         <peptide peptide_sequence="SYELPDGQVITIGNER" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.99" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1789.8846">
+         </peptide>
+         <peptide peptide_sequence="AVFPSIVGRPR" charge="2" initial_probability="0.9965" nsp_adjusted_probability="0.9991" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.00" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1197.6982">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="6" probability="1.0000">
+      <protein protein_name="YHR027C" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="11.0" unique_stripped_peptides="LCLDIVPYFLK+LGEEDMIR+LKEDDSSLYEASLNALK+LLSDVSDFEGWGHEYIR+QLAYILAAQK+SVFDATSDPVMHK+TSFEYEGVQDIIGNGK+VPEDIYK+YLYVDEPEVK" group_sibling_id="a" total_number_peptides="10" pct_spectrum_ids="7.14" confidence="1.00">
+         <parameter name="prot_length" value="994"/>
+         <annotation protein_description="RPN1 SGDID:S000001069, Chr VIII from 164704-161723, reverse complement, Verified ORF, 'Non-ATPase base subunit of the 19S regulatory particle of the 26S proteasome; may participate in the recognition of several ligands of the proteasome; contains a leucine-rich repeat (LRR) domain, a site for protein?protein interactions'"/>
+         <peptide peptide_sequence="LKEDDSSLYEASLNALK" charge="2" initial_probability="0.9988" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="7.82" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1894.9524">
+         </peptide>
+         <peptide peptide_sequence="LLSDVSDFEGWGHEYIR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9997" peptide_group_designator="a" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="7.82" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="2021.9483">
+         </peptide>
+         <peptide peptide_sequence="SVFDATSDPVMHK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="7.82" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1432.6656">
+         </peptide>
+         <peptide peptide_sequence="TSFEYEGVQDIIGNGK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="7.82" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1755.8315">
+         </peptide>
+         <peptide peptide_sequence="LCLDIVPYFLK" charge="2" initial_probability="0.9970" nsp_adjusted_probability="0.9992" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="7.82" n_sibling_peptides_bin="2" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1379.7523">
+<modification_info modified_peptide="LCLDIVPYFLK">
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="YLYVDEPEVK" charge="2" initial_probability="0.9829" nsp_adjusted_probability="0.9960" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="7.83" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1253.6179">
+         </peptide>
+         <peptide peptide_sequence="LGEEDMIR" charge="2" initial_probability="0.9703" nsp_adjusted_probability="0.9930" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="7.84" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="961.4539">
+         </peptide>
+         <peptide peptide_sequence="LLSDVSDFEGWGHEYIR" charge="3" initial_probability="0.9602" nsp_adjusted_probability="0.9906" peptide_group_designator="a" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="7.85" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.96" is_contributing_evidence="Y" calc_neutral_pep_mass="2021.9483">
+         </peptide>
+         <peptide peptide_sequence="QLAYILAAQK" charge="2" initial_probability="0.5786" nsp_adjusted_probability="0.8567" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="8.24" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.58" is_contributing_evidence="Y" calc_neutral_pep_mass="1117.6495">
+         </peptide>
+         <peptide peptide_sequence="VPEDIYK" charge="2" initial_probability="0.3300" nsp_adjusted_probability="0.3300" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="8.48" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.33" is_contributing_evidence="Y" calc_neutral_pep_mass="862.4436">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="7" probability="1.0000">
+      <protein protein_name="YLR259C" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="55.4" unique_stripped_peptides="AAVEEGILPGGGTALVK+AAVEEGILPGGGTALVKA+AITRPAK+APGFGDNR+APGFGDNRK+DRYDDALNATR+EDTVILNGSGPK+GFISPYFITDPK+GSIDITTTNSYEK+GSIDITTTNSYEKEK+GVETLAEAVAATLGPK+IEQPFGPPK+KDRYDDALNATR+KISSIQDILPALEISNQSR+LGVDIIR+LIDEYGDDFAK+LLASAMEK+LLQEVASK+LSGGVAVIR+NVAAGCNPMDLR+NVLIEQPFGPPK+QIIENAGEEGSVIIGK+SEYTDMLATGIIDPFK+SIVLKDKFENMGAK+SSKVEFEKPLLLLSEK+TLEDELEVTEGMR+TLEDELEVTEGMRFDR+TNEAAGDGTTSATVLGR+VEFEKPLLLLSEK+VEFEKPLLLLSEKK+VGGASEVEVGEKK+VGGASEVEVGEKKDR+VIEFLSANK+VIEFLSANKK+VLDEVVVDNFDQK+YDDALNATR" group_sibling_id="a" total_number_peptides="62" pct_spectrum_ids="45.23" confidence="1.00">
+         <parameter name="prot_length" value="573"/>
+         <annotation protein_description="HSP60 SGDID:S000004249, Chr XII from 665004-663286, reverse complement, Verified ORF, 'Tetradecameric mitochondrial chaperonin required for ATP-dependent folding of precursor polypeptides and complex assembly; prevents aggregation and mediates protein refolding after heat shock; role in mtDNA transmission; phosphorylated'"/>
+         <peptide peptide_sequence="GFISPYFITDPK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="3" exp_tot_instances="2.76" is_contributing_evidence="Y" calc_neutral_pep_mass="1383.7074">
+         </peptide>
+         <peptide peptide_sequence="GVETLAEAVAATLGPK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" peptide_group_designator="c" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="2" exp_tot_instances="1.05" is_contributing_evidence="Y" calc_neutral_pep_mass="1525.8351">
+         </peptide>
+         <peptide peptide_sequence="KISSIQDILPALEISNQSR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" peptide_group_designator="a" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="2111.1586">
+         </peptide>
+         <peptide peptide_sequence="NVAAGCNPMDLR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1316.5965">
+<modification_info modified_peptide="NVAAGCNPMDLR">
+<mod_aminoacid_mass position="6" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="NVAAGCNPMDLR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1332.5914">
+<modification_info modified_peptide="NVAAGCNPM[147]DLR">
+<mod_aminoacid_mass position="6" mass="160.030600"/>
+<mod_aminoacid_mass position="9" mass="147.035400"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="QIIENAGEEGSVIIGK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" peptide_group_designator="e" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="6" exp_tot_instances="5.65" is_contributing_evidence="Y" calc_neutral_pep_mass="1655.8730">
+         </peptide>
+         <peptide peptide_sequence="QIIENAGEEGSVIIGK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1638.8464">
+<modification_info modified_peptide="Q[111]IIENAGEEGSVIIGK">
+<mod_aminoacid_mass position="1" mass="111.032100"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="SEYTDMLATGIIDPFK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1799.8651">
+         </peptide>
+         <peptide peptide_sequence="SEYTDMLATGIIDPFK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1815.8600">
+<modification_info modified_peptide="SEYTDM[147]LATGIIDPFK">
+<mod_aminoacid_mass position="6" mass="147.035400"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="SSKVEFEKPLLLLSEK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" peptide_group_designator="b" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1846.0451">
+         </peptide>
+         <peptide peptide_sequence="TLEDELEVTEGMR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1520.7028">
+         </peptide>
+         <peptide peptide_sequence="TLEDELEVTEGMR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1536.6977">
+<modification_info modified_peptide="TLEDELEVTEGM[147]R">
+<mod_aminoacid_mass position="12" mass="147.035400"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="VEFEKPLLLLSEK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" peptide_group_designator="d" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1543.8861">
+         </peptide>
+         <peptide peptide_sequence="VGGASEVEVGEKK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" peptide_group_designator="h" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1287.6670">
+         </peptide>
+         <peptide peptide_sequence="YDDALNATR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9998" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1037.4778">
+         </peptide>
+         <peptide peptide_sequence="AAVEEGILPGGGTALVKA" charge="2" initial_probability="0.9988" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="43.25" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1651.9145">
+         </peptide>
+         <peptide peptide_sequence="APGFGDNR" charge="2" initial_probability="0.9988" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="832.3827">
+         </peptide>
+         <peptide peptide_sequence="GSIDITTTNSYEK" charge="2" initial_probability="0.9988" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1427.6780">
+         </peptide>
+         <peptide peptide_sequence="GSIDITTTNSYEKEK" charge="2" initial_probability="0.9989" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1684.8155">
+         </peptide>
+         <peptide peptide_sequence="NVLIEQPFGPPK" charge="2" initial_probability="0.9987" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="6" n_instances="2" exp_tot_instances="2.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1337.7343">
+         </peptide>
+         <peptide peptide_sequence="TNEAAGDGTTSATVLGR" charge="2" initial_probability="0.9989" nsp_adjusted_probability="0.9997" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="5" n_instances="2" exp_tot_instances="2.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1619.7751">
+         </peptide>
+         <peptide peptide_sequence="KISSIQDILPALEISNQSR" charge="3" initial_probability="0.9989" nsp_adjusted_probability="0.9997" peptide_group_designator="a" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.25" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="2111.1586">
+         </peptide>
+         <peptide peptide_sequence="VLDEVVVDNFDQK" charge="2" initial_probability="0.9983" nsp_adjusted_probability="0.9996" peptide_group_designator="g" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.26" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1518.7566">
+         </peptide>
+         <peptide peptide_sequence="SSKVEFEKPLLLLSEK" charge="3" initial_probability="0.9983" nsp_adjusted_probability="0.9996" peptide_group_designator="b" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.26" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1846.0451">
+         </peptide>
+         <peptide peptide_sequence="APGFGDNRK" charge="2" initial_probability="0.9980" nsp_adjusted_probability="0.9995" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.26" n_sibling_peptides_bin="6" n_instances="3" exp_tot_instances="2.60" is_contributing_evidence="Y" calc_neutral_pep_mass="960.4777">
+         </peptide>
+         <peptide peptide_sequence="GVETLAEAVAATLGPK" charge="3" initial_probability="0.9978" nsp_adjusted_probability="0.9995" peptide_group_designator="c" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.26" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1525.8351">
+         </peptide>
+         <peptide peptide_sequence="VEFEKPLLLLSEK" charge="3" initial_probability="0.9969" nsp_adjusted_probability="0.9993" peptide_group_designator="d" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.26" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1543.8861">
+         </peptide>
+         <peptide peptide_sequence="VEFEKPLLLLSEKK" charge="3" initial_probability="0.9964" nsp_adjusted_probability="0.9992" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.26" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1671.9811">
+         </peptide>
+         <peptide peptide_sequence="LSGGVAVIR" charge="2" initial_probability="0.9960" nsp_adjusted_probability="0.9991" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.26" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="870.5287">
+         </peptide>
+         <peptide peptide_sequence="QIIENAGEEGSVIIGK" charge="3" initial_probability="0.9963" nsp_adjusted_probability="0.9991" peptide_group_designator="e" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.26" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1655.8730">
+         </peptide>
+         <peptide peptide_sequence="KDRYDDALNATR" charge="2" initial_probability="0.9956" nsp_adjusted_probability="0.9990" peptide_group_designator="k" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.26" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1436.7008">
+         </peptide>
+         <peptide peptide_sequence="AAVEEGILPGGGTALVK" charge="2" initial_probability="0.9951" nsp_adjusted_probability="0.9989" peptide_group_designator="i" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.26" n_sibling_peptides_bin="6" n_instances="2" exp_tot_instances="1.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1580.8773">
+         </peptide>
+         <peptide peptide_sequence="LIDEYGDDFAK" charge="2" initial_probability="0.9931" nsp_adjusted_probability="0.9984" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.26" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1284.5874">
+         </peptide>
+         <peptide peptide_sequence="VGGASEVEVGEKKDR" charge="2" initial_probability="0.9887" nsp_adjusted_probability="0.9974" peptide_group_designator="f" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.26" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1558.7951">
+         </peptide>
+         <peptide peptide_sequence="VIEFLSANK" charge="2" initial_probability="0.9856" nsp_adjusted_probability="0.9967" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.27" n_sibling_peptides_bin="6" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1019.5651">
+         </peptide>
+         <peptide peptide_sequence="VGGASEVEVGEKKDR" charge="3" initial_probability="0.9734" nsp_adjusted_probability="0.9938" peptide_group_designator="f" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.28" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1558.7951">
+         </peptide>
+         <peptide peptide_sequence="VLDEVVVDNFDQK" charge="3" initial_probability="0.9469" nsp_adjusted_probability="0.9873" peptide_group_designator="g" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.31" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.95" is_contributing_evidence="Y" calc_neutral_pep_mass="1518.7566">
+         </peptide>
+         <peptide peptide_sequence="VIEFLSANKK" charge="2" initial_probability="0.9404" nsp_adjusted_probability="0.9856" peptide_group_designator="l" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.31" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1147.6601">
+         </peptide>
+         <peptide peptide_sequence="VGGASEVEVGEKK" charge="3" initial_probability="0.9278" nsp_adjusted_probability="0.9824" peptide_group_designator="h" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.33" n_sibling_peptides_bin="7" n_instances="2" exp_tot_instances="1.36" is_contributing_evidence="Y" calc_neutral_pep_mass="1287.6670">
+         </peptide>
+         <peptide peptide_sequence="DRYDDALNATR" charge="2" initial_probability="0.9029" nsp_adjusted_probability="0.9759" peptide_group_designator="j" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.35" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.90" is_contributing_evidence="Y" calc_neutral_pep_mass="1308.6058">
+         </peptide>
+         <peptide peptide_sequence="LGVDIIR" charge="2" initial_probability="0.8836" nsp_adjusted_probability="0.9706" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.37" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.88" is_contributing_evidence="Y" calc_neutral_pep_mass="784.4807">
+         </peptide>
+         <peptide peptide_sequence="AAVEEGILPGGGTALVK" charge="3" initial_probability="0.8065" nsp_adjusted_probability="0.9478" peptide_group_designator="i" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.45" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.81" is_contributing_evidence="Y" calc_neutral_pep_mass="1580.8773">
+         </peptide>
+         <peptide peptide_sequence="EDTVILNGSGPK" charge="2" initial_probability="0.7870" nsp_adjusted_probability="0.9415" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.47" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.79" is_contributing_evidence="Y" calc_neutral_pep_mass="1228.6299">
+         </peptide>
+         <peptide peptide_sequence="DRYDDALNATR" charge="3" initial_probability="0.5996" nsp_adjusted_probability="0.8670" peptide_group_designator="j" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.65" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.60" is_contributing_evidence="Y" calc_neutral_pep_mass="1308.6058">
+         </peptide>
+         <peptide peptide_sequence="SIVLKDKFENMGAK" charge="3" initial_probability="0.4420" nsp_adjusted_probability="0.4420" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.81" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.44" is_contributing_evidence="Y" calc_neutral_pep_mass="1578.8439">
+         </peptide>
+         <peptide peptide_sequence="KDRYDDALNATR" charge="3" initial_probability="0.4245" nsp_adjusted_probability="0.4245" peptide_group_designator="k" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="43.83" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.42" is_contributing_evidence="Y" calc_neutral_pep_mass="1436.7008">
+         </peptide>
+         <peptide peptide_sequence="AITRPAK" charge="2" initial_probability="0.2566" nsp_adjusted_probability="0.2566" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="44.00" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.26" is_contributing_evidence="Y" calc_neutral_pep_mass="755.4653">
+         </peptide>
+         <peptide peptide_sequence="TLEDELEVTEGMRFDR" charge="3" initial_probability="0.2106" nsp_adjusted_probability="0.2106" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="44.04" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.21" is_contributing_evidence="Y" calc_neutral_pep_mass="1954.8942">
+<modification_info modified_peptide="TLEDELEVTEGM[147]RFDR">
+<mod_aminoacid_mass position="12" mass="147.035400"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="VIEFLSANKK" charge="3" initial_probability="0.1304" nsp_adjusted_probability="0.1304" peptide_group_designator="l" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="44.12" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.13" is_contributing_evidence="N" calc_neutral_pep_mass="1147.6601">
+         </peptide>
+         <peptide peptide_sequence="IEQPFGPPK" charge="2" initial_probability="0.1085" nsp_adjusted_probability="0.1085" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="44.15" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.11" is_contributing_evidence="N" calc_neutral_pep_mass="1011.5389">
+         </peptide>
+         <peptide peptide_sequence="LLASAMEK" charge="2" initial_probability="0.0643" nsp_adjusted_probability="0.0643" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="44.25" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.06" is_contributing_evidence="N" calc_neutral_pep_mass="861.4630">
+         </peptide>
+         <peptide peptide_sequence="LLQEVASK" charge="2" initial_probability="0.0526" nsp_adjusted_probability="0.0526" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="44.25" n_sibling_peptides_bin="7" n_instances="1" exp_tot_instances="0.05" is_contributing_evidence="N" calc_neutral_pep_mass="886.5124">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="8" probability="0.9926">
+      <protein protein_name="YGR135W" n_indistinguishable_proteins="1" probability="0.9926" percent_coverage="5.0" unique_stripped_peptides="TYNEDIPVEILVR" group_sibling_id="a" total_number_peptides="1" pct_spectrum_ids="0.81" confidence="0.28">
+         <parameter name="prot_length" value="259"/>
+         <annotation protein_description="PRE9 SGDID:S000003367, Chr VII from 761397-762173, Verified ORF, 'Alpha 3 subunit of the 20S proteasome, the only nonessential 20S subunit; may be replaced by the alpha 4 subunit (Pre6p) under stress conditions to create a more active proteasomal isoform'"/>
+         <peptide peptide_sequence="TYNEDIPVEILVR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9926" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1559.8195">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="9" probability="0.9926">
+      <protein protein_name="YOR362C" n_indistinguishable_proteins="1" probability="0.9926" percent_coverage="4.5" unique_stripped_peptides="GDLLQEAIDFAQK" group_sibling_id="a" total_number_peptides="1" pct_spectrum_ids="0.81" confidence="0.26">
+         <parameter name="prot_length" value="289"/>
+         <annotation protein_description="PRE10 SGDID:S000005889, Chr XV from 1018744-1017878, reverse complement, Verified ORF, 'Alpha 7 subunit of the 20S proteasome'"/>
+         <peptide peptide_sequence="GDLLQEAIDFAQK" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9926" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1446.7354">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="10" probability="0.9889">
+      <protein protein_name="YNL189W" n_indistinguishable_proteins="1" probability="0.9889" percent_coverage="3.5" unique_stripped_peptides="LLEVAEYK+TATWTLSNLCR" group_sibling_id="a" total_number_peptides="2" pct_spectrum_ids="1.08" confidence="0.60">
+         <parameter name="prot_length" value="543"/>
+         <annotation protein_description="SRP1 SGDID:S000005133, Chr XIV from 284261-285889, Verified ORF, 'Karyopherin alpha homolog, forms a dimer with karyopherin beta Kap95p to mediate import of nuclear proteins, binds the nuclear localization signal of the substrate during import; may also play a role in regulation of protein degradation'"/>
+         <peptide peptide_sequence="TATWTLSNLCR" charge="2" initial_probability="0.9925" nsp_adjusted_probability="0.9859" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.34" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1321.6448">
+<modification_info modified_peptide="TATWTLSNLCR">
+<mod_aminoacid_mass position="10" mass="160.030600"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="LLEVAEYK" charge="2" initial_probability="0.3391" nsp_adjusted_probability="0.2135" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.99" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="0.34" is_contributing_evidence="Y" calc_neutral_pep_mass="963.5277">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="11" probability="0.8268">
+      <protein protein_name="YNL125C" n_indistinguishable_proteins="1" probability="0.8268" percent_coverage="4.2" unique_stripped_peptides="TTAGASLSAPSSSAFSASSIQNDTTEHK" group_sibling_id="a" total_number_peptides="1" pct_spectrum_ids="0.79" confidence="0.10">
+         <parameter name="prot_length" value="674"/>
+         <annotation protein_description="ESBP6 SGDID:S000005069, Chr XIV from 392169-390148, reverse complement, Verified ORF, 'Protein with similarity to monocarboxylate permeases, appears not to be involved in transport of monocarboxylates such as lactate, pyruvate or acetate across the plasma membrane'"/>
+         <peptide peptide_sequence="TTAGASLSAPSSSAFSASSIQNDTTEHK" charge="3" initial_probability="0.9727" nsp_adjusted_probability="0.8268" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="2752.2787">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="12" probability="0.8172">
+      <protein protein_name="YBR020W" n_indistinguishable_proteins="1" probability="0.8172" percent_coverage="1.9" unique_stripped_peptides="ALSNGSYGSR" group_sibling_id="a" total_number_peptides="1" pct_spectrum_ids="0.79" confidence="0.13">
+         <parameter name="prot_length" value="529"/>
+         <annotation protein_description="GAL1 SGDID:S000000224, Chr II from 279021-280607, Verified ORF, 'Galactokinase, phosphorylates alpha-D-galactose to alpha-D-galactose-1-phosphate in the first step of galactose catabolism; expression regulated by Gal4p'"/>
+         <peptide peptide_sequence="ALSNGSYGSR" charge="2" initial_probability="0.9709" nsp_adjusted_probability="0.8172" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1010.4781">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="13" probability="0.7193">
+      <protein protein_name="YJL005W" n_indistinguishable_proteins="1" probability="0.7193" percent_coverage="0.5" unique_stripped_peptides="PGPPSKKDSR" group_sibling_id="a" total_number_peptides="1" pct_spectrum_ids="0.77" confidence="0.03">
+         <parameter name="prot_length" value="2027"/>
+         <annotation protein_description="CYR1 SGDID:S000003542, Chr X from 425150-431230, Verified ORF, 'Adenylate cyclase, required for cAMP production and cAMP-dependent protein kinase signaling; the cAMP pathway controls a variety of cellular processes, including metabolism, cell cycle, stress response, stationary phase, and sporulation'"/>
+         <peptide peptide_sequence="PGPPSKKDSR" charge="2" initial_probability="0.9503" nsp_adjusted_probability="0.7193" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.95" is_contributing_evidence="Y" calc_neutral_pep_mass="1067.5723">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="14" probability="0.3006">
+      <protein protein_name="YKR017C" n_indistinguishable_proteins="1" probability="0.3006" percent_coverage="3.8" unique_stripped_peptides="EDGVDTIYEGMLDAPLTKNNK" group_sibling_id="a" total_number_peptides="1" pct_spectrum_ids="0.62" confidence="0.04">
+         <parameter name="prot_length" value="552"/>
+         <annotation protein_description="YKR017C SGDID:S000001725, Chr XI from 472992-471337, reverse complement, Uncharacterized ORF, 'Putative protein of unknown function; contains a RING finger motif'"/>
+         <peptide peptide_sequence="EDGVDTIYEGMLDAPLTKNNK" charge="3" initial_probability="0.7625" nsp_adjusted_probability="0.3006" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.76" is_contributing_evidence="Y" calc_neutral_pep_mass="2322.1049">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="15" probability="0.0000">
+      <protein protein_name="YBL002W" n_indistinguishable_proteins="2" probability="0.0000" unique_stripped_peptides="LILPGELAK" group_sibling_id="a" total_number_peptides="0" confidence="0.0009">
+         <parameter name="prot_length" value="132"/>
+         <annotation protein_description="HTB2 SGDID:S000000098, Chr II from 236495-236890, Verified ORF, 'Histone H2B, core histone protein required for chromatin assembly and chromosome function; nearly identical to HTB1; Rad6p-Bre1p-Lge1p mediated ubiquitination regulates transcriptional activation, meiotic DSB formation and H3 methylation'"/>
+         <indistinguishable_protein protein_name="YDR224C">
+            <annotation protein_description="HTB1 SGDID:S000002632, Chr IV from 914709-914314, reverse complement, Verified ORF, 'Histone H2B, core histone protein required for chromatin assembly and chromosome function; nearly identical to HTB2; Rad6p-Bre1p-Lge1p mediated ubiquitination regulates transcriptional activation, meiotic DSB formation and H3 methylation'"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="LILPGELAK" charge="2" initial_probability="0.0830" nsp_adjusted_probability="0.0120" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.08" is_contributing_evidence="N" calc_neutral_pep_mass="952.5957">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="16" probability="0.0000">
+      <protein protein_name="YBL101C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="EEIVENSFNDNLLSYSPFDDDS" group_sibling_id="a" total_number_peptides="0" confidence="0.0048">
+         <parameter name="prot_length" value="1118"/>
+         <annotation protein_description="ECM21 SGDID:S000000197, Chr II from 28299-24946, reverse complement, Verified ORF, 'Protein involved in regulating the endocytosis of plasma membrane proteins; identified as a substrate for ubiquitination by Rsp5p and deubiquitination by Ubp2p; promoter contains several Gcn4p binding elements'"/>
+         <peptide peptide_sequence="EEIVENSFNDNLLSYSPFDDDS" charge="2" initial_probability="0.5020" nsp_adjusted_probability="0.1189" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.50" is_contributing_evidence="N" calc_neutral_pep_mass="2548.0765">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="17" probability="0.0000">
+      <protein protein_name="YBL107C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="EAAEMKNETDQQC" group_sibling_id="a" total_number_peptides="0" confidence="0.0008">
+         <parameter name="prot_length" value="197"/>
+         <annotation protein_description="YBL107C SGDID:S000000203, Chr II from 10551-9961, reverse complement, Uncharacterized ORF, 'Putative protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm; YBL107C is not an essential gene'"/>
+         <peptide peptide_sequence="EAAEMKNETDQQC" charge="2" initial_probability="0.0803" nsp_adjusted_probability="0.0116" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.08" is_contributing_evidence="N" calc_neutral_pep_mass="1550.5977">
+<modification_info modified_peptide="E[111]AAEM[147]KNETDQQC">
+<mod_aminoacid_mass position="1" mass="111.032000"/>
+<mod_aminoacid_mass position="5" mass="147.035400"/>
+<mod_aminoacid_mass position="13" mass="160.030600"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="18" probability="0.0000">
+      <protein protein_name="YBR284W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="FDMQMEMGSPMAMPAET" group_sibling_id="a" total_number_peptides="0" confidence="0.0017">
+         <parameter name="prot_length" value="798"/>
+         <annotation protein_description="YBR284W SGDID:S000000488, Chr II from 771235-773628, Uncharacterized ORF, 'Putative protein of unknown function; YBR284W is not an essential gene; null mutant exhibits decreased resistance to rapamycin and wortmannin and synthetic phenotype with alpha-synuclein'"/>
+         <peptide peptide_sequence="FDMQMEMGSPMAMPAET" charge="2" initial_probability="0.2777" nsp_adjusted_probability="0.0490" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.28" is_contributing_evidence="N" calc_neutral_pep_mass="1918.7277">
+<modification_info modified_peptide="FDMQMEMGSPMAM[147]PAET">
+<mod_aminoacid_mass position="13" mass="147.035400"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="19" probability="0.0000">
+      <protein protein_name="YDR006C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="DTSTLDGSSQNIIPNR" group_sibling_id="a" total_number_peptides="0" confidence="0.0008">
+         <parameter name="prot_length" value="902"/>
+         <annotation protein_description="SOK1 SGDID:S000002413, Chr IV from 461245-458540, reverse complement, Verified ORF, 'Protein whose overexpression suppresses the growth defect of mutants lacking protein kinase A activity; involved in cAMP-mediated signaling; localized to the nucleus; similar to the mouse testis-specific protein PBS13'"/>
+         <peptide peptide_sequence="DTSTLDGSSQNIIPNR" charge="2" initial_probability="0.1463" nsp_adjusted_probability="0.0224" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.15" is_contributing_evidence="N" calc_neutral_pep_mass="1716.8278">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="20" probability="0.0000">
+      <protein protein_name="YDR127W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="KIKNLLHSDDTK" group_sibling_id="a" total_number_peptides="0" confidence="0.0010">
+         <parameter name="prot_length" value="1589"/>
+         <annotation protein_description="ARO1 SGDID:S000002534, Chr IV from 704482-709248, Verified ORF, 'Pentafunctional arom protein, catalyzes steps 2 through 6 in the biosynthesis of chorismate, which is a precursor to aromatic amino acids'"/>
+         <peptide peptide_sequence="KIKNLLHSDDTK" charge="2" initial_probability="0.2198" nsp_adjusted_probability="0.0363" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.22" is_contributing_evidence="N" calc_neutral_pep_mass="1410.7831">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="21" probability="0.0000">
+      <protein protein_name="YDR301W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="ENIDDSELIHSMNQK" group_sibling_id="a" total_number_peptides="0" confidence="0.0088">
+         <parameter name="prot_length" value="1358"/>
+         <annotation protein_description="CFT1 SGDID:S000002709, Chr IV from 1063349-1067422, Verified ORF, 'RNA-binding subunit of the mRNA cleavage and polyadenylation factor; involved in poly(A) site recognition and required for both pre-mRNA cleavage and polyadenylation, 51% sequence similarity with mammalian AAUAA-binding subunit of CPSF'"/>
+         <peptide peptide_sequence="ENIDDSELIHSMNQK" charge="3" initial_probability="0.6450" nsp_adjusted_probability="0.1956" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.64" is_contributing_evidence="N" calc_neutral_pep_mass="1753.7941">
+<modification_info modified_peptide="E[111]NIDDSELIHSMNQK">
+<mod_aminoacid_mass position="1" mass="111.032000"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="22" probability="0.0000">
+      <protein protein_name="YDR324C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="IWSISINDSQDK" group_sibling_id="a" total_number_peptides="0" confidence="0.0007">
+         <parameter name="prot_length" value="777"/>
+         <annotation protein_description="UTP4 SGDID:S000002732, Chr IV from 1116761-1114431, reverse complement, Verified ORF, 'Subunit of U3-containing 90S preribosome and Small Subunit (SSU) processome complexes involved in production of 18S rRNA and assembly of small ribosomal subunit; member of t-Utp subcomplex involved with transcription of 35S rRNA transcript'"/>
+         <peptide peptide_sequence="IWSISINDSQDK" charge="2" initial_probability="0.1061" nsp_adjusted_probability="0.0156" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.11" is_contributing_evidence="N" calc_neutral_pep_mass="1404.6885">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="23" probability="0.0000">
+      <protein protein_name="YDR332W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="EAAMENVTER" group_sibling_id="a" total_number_peptides="0" confidence="0.0006">
+         <parameter name="prot_length" value="690"/>
+         <annotation protein_description="IRC3 SGDID:S000002740, Chr IV from 1130997-1133066, Verified ORF, 'Putative protein of unknown function; null mutant displays increased levels of spontaneous Rad52p foci; green fluorescent protein (GFP)-fusion protein localizes to the mitochondrion'"/>
+         <peptide peptide_sequence="EAAMENVTER" charge="3" initial_probability="0.0636" nsp_adjusted_probability="0.0090" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.06" is_contributing_evidence="N" calc_neutral_pep_mass="1148.5132">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="24" probability="0.0000">
+      <protein protein_name="YDR366C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="IIEEGCVW" group_sibling_id="a" total_number_peptides="0" confidence="0.0012">
+         <parameter name="prot_length" value="133"/>
+         <annotation protein_description="YDR366C SGDID:S000002774, Chr IV from 1212829-1212431, reverse complement, Uncharacterized ORF, 'Putative protein of unknown function'"/>
+         <peptide peptide_sequence="IIEEGCVW" charge="2" initial_probability="0.1211" nsp_adjusted_probability="0.0181" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.12" is_contributing_evidence="N" calc_neutral_pep_mass="1004.4637">
+<modification_info modified_peptide="IIEEGCVW">
+<mod_aminoacid_mass position="6" mass="160.030600"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="25" probability="0.0000">
+      <protein protein_name="YFR049W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="CATNGMLPGSKECIPVSK" group_sibling_id="a" total_number_peptides="0" confidence="0.0017">
+         <parameter name="prot_length" value="124"/>
+         <annotation protein_description="YMR31 SGDID:S000001945, Chr VI from 248510-248881, Verified ORF, 'Mitochondrial ribosomal protein of the small subunit, has similarity to human mitochondrial ribosomal protein MRP-S36'"/>
+         <peptide peptide_sequence="CATNGMLPGSKECIPVSK" charge="3" initial_probability="0.1748" nsp_adjusted_probability="0.0276" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.17" is_contributing_evidence="N" calc_neutral_pep_mass="1946.8900">
+<modification_info modified_peptide="C[143]ATNGM[147]LPGSKECIPVSK">
+<mod_aminoacid_mass position="1" mass="143.004100"/>
+<mod_aminoacid_mass position="6" mass="147.035400"/>
+<mod_aminoacid_mass position="13" mass="160.030600"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="26" probability="0.0000">
+      <protein protein_name="YGL028C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="SKLSEAGYSGQIT" group_sibling_id="a" total_number_peptides="0" confidence="0.0021">
+         <parameter name="prot_length" value="543"/>
+         <annotation protein_description="SCW11 SGDID:S000002996, Chr VII from 442914-441286, reverse complement, Verified ORF, 'Cell wall protein with similarity to glucanases; may play a role in conjugation during mating based on its regulation by Ste12p'"/>
+         <peptide peptide_sequence="SKLSEAGYSGQIT" charge="2" initial_probability="0.2862" nsp_adjusted_probability="0.0509" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.29" is_contributing_evidence="N" calc_neutral_pep_mass="1339.6619">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="27" probability="0.0000">
+      <protein protein_name="YGL067W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="WEETGISCK" group_sibling_id="a" total_number_peptides="0" confidence="0.0008">
+         <parameter name="prot_length" value="385"/>
+         <annotation protein_description="NPY1 SGDID:S000003035, Chr VII from 376104-377258, Verified ORF, 'NADH diphosphatase (pyrophosphatase), hydrolyzes the pyrophosphate linkage in NADH and related nucleotides; localizes to peroxisomes'"/>
+         <peptide peptide_sequence="WEETGISCK" charge="2" initial_probability="0.0987" nsp_adjusted_probability="0.0144" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.10" is_contributing_evidence="N" calc_neutral_pep_mass="1108.4859">
+<modification_info modified_peptide="WEETGISCK">
+<mod_aminoacid_mass position="8" mass="160.030600"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="28" probability="0.0000">
+      <protein protein_name="YGR079W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="QTLSAGFGIGEFML" group_sibling_id="a" total_number_peptides="0" confidence="0.0016">
+         <parameter name="prot_length" value="371"/>
+         <annotation protein_description="YGR079W SGDID:S000003311, Chr VII from 640724-641836, Uncharacterized ORF, 'Putative protein of unknown function; YGR079W is not an essential gene'"/>
+         <peptide peptide_sequence="QTLSAGFGIGEFML" charge="2" initial_probability="0.2153" nsp_adjusted_probability="0.0354" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.22" is_contributing_evidence="N" calc_neutral_pep_mass="1485.7173">
+<modification_info modified_peptide="QTLSAGFGIGEFM[147]L">
+<mod_aminoacid_mass position="13" mass="147.035400"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="29" probability="0.0000">
+      <protein protein_name="YGR199W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="NFAMASSNNALVPDEDK" group_sibling_id="a" total_number_peptides="0" confidence="0.0006">
+         <parameter name="prot_length" value="760"/>
+         <annotation protein_description="PMT6 SGDID:S000003431, Chr VII from 897507-899786, Verified ORF, 'Protein O-mannosyltransferase, transfers mannose from dolichyl phosphate-D-mannose to protein serine/threonine residues of secretory proteins; reaction is essential for cell wall rigidity; member of a family of mannosyltransferases'"/>
+         <peptide peptide_sequence="NFAMASSNNALVPDEDK" charge="2" initial_probability="0.0648" nsp_adjusted_probability="0.0092" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.06" is_contributing_evidence="N" calc_neutral_pep_mass="1837.8152">
+<modification_info modified_peptide="NFAM[147]ASSNNALVPDEDK">
+<mod_aminoacid_mass position="4" mass="147.035400"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="30" probability="0.0000">
+      <protein protein_name="YHR023W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="TGESGAGKTENTKK" group_sibling_id="a" total_number_peptides="0" confidence="0.0005">
+         <parameter name="prot_length" value="1929"/>
+         <annotation protein_description="MYO1 SGDID:S000001065, Chr VIII from 151659-157445, Verified ORF, 'Type II myosin heavy chain, required for wild-type cytokinesis and cell separation; localizes to the actomyosin ring; binds to myosin light chains Mlc1p and Mlc2p through its IQ1 and IQ2 motifs respectively'"/>
+         <peptide peptide_sequence="TGESGAGKTENTKK" charge="3" initial_probability="0.0880" nsp_adjusted_probability="0.0128" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.09" is_contributing_evidence="N" calc_neutral_pep_mass="1406.7001">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="31" probability="0.0000">
+      <protein protein_name="YHR040W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="DSDDDYNPGLSMDFLTA" group_sibling_id="a" total_number_peptides="0" confidence="0.0015">
+         <parameter name="prot_length" value="367"/>
+         <annotation protein_description="BCD1 SGDID:S000001082, Chr VIII from 187917-189017, Verified ORF, 'Essential protein required for the accumulation of box C/D snoRNA'"/>
+         <peptide peptide_sequence="DSDDDYNPGLSMDFLTA" charge="2" initial_probability="0.2083" nsp_adjusted_probability="0.0340" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.21" is_contributing_evidence="N" calc_neutral_pep_mass="1874.7516">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="32" probability="0.0000">
+      <protein protein_name="YHR099W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="TILDNSLER" group_sibling_id="a" total_number_peptides="0" confidence="0.0004">
+         <parameter name="prot_length" value="3745"/>
+         <annotation protein_description="TRA1 SGDID:S000001141, Chr VIII from 302764-313998, Verified ORF, 'Subunit of SAGA and NuA4 histone acetyltransferase complexes; interacts with acidic activators (e.g., Gal4p) which leads to transcription activation; similar to human TRRAP, which is a cofactor for c-Myc mediated oncogenic transformation'"/>
+         <peptide peptide_sequence="TILDNSLER" charge="2" initial_probability="0.0691" nsp_adjusted_probability="0.0098" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.07" is_contributing_evidence="N" calc_neutral_pep_mass="1059.5560">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="33" probability="0.0000">
+      <protein protein_name="YHR104W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="KVSQNHPGSTT" group_sibling_id="a" total_number_peptides="0" confidence="0.0007">
+         <parameter name="prot_length" value="328"/>
+         <annotation protein_description="GRE3 SGDID:S000001146, Chr VIII from 323412-324395, Verified ORF, 'Aldose reductase involved in methylglyoxal, d-xylose, arabinose, and galactose metabolism; stress induced (osmotic, ionic, oxidative, heat shock, starvation and heavy metals); regulated by the HOG pathway'"/>
+         <peptide peptide_sequence="KVSQNHPGSTT" charge="2" initial_probability="0.0851" nsp_adjusted_probability="0.0123" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.09" is_contributing_evidence="N" calc_neutral_pep_mass="1154.5680">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="34" probability="0.0000">
+      <protein protein_name="YHR137W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="NWDVILSGGSNDSMFK" group_sibling_id="a" total_number_peptides="0" confidence="0.0014">
+         <parameter name="prot_length" value="514"/>
+         <annotation protein_description="ARO9 SGDID:S000001179, Chr VIII from 375712-377253, Verified ORF, 'Aromatic aminotransferase II, catalyzes the first step of tryptophan, phenylalanine, and tyrosine catabolism'"/>
+         <peptide peptide_sequence="NWDVILSGGSNDSMFK" charge="2" initial_probability="0.2067" nsp_adjusted_probability="0.0337" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.21" is_contributing_evidence="N" calc_neutral_pep_mass="1784.8039">
+<modification_info modified_peptide="NWDVILSGGSNDSM[147]FK">
+<mod_aminoacid_mass position="14" mass="147.035400"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="35" probability="0.0000">
+      <protein protein_name="YIL148W" n_indistinguishable_proteins="4" probability="0.0000" unique_stripped_peptides="ESTLHLVLR" group_sibling_id="a" total_number_peptides="0" confidence="0.0079">
+         <parameter name="prot_length" value="129"/>
+         <annotation protein_description="RPL40A SGDID:S000001410, Chr IX from 68708-68715,69150-69528, Verified ORF, 'Fusion protein, identical to Rpl40Bp, that is cleaved to yield ubiquitin and a ribosomal protein of the large (60S) ribosomal subunit with similarity to rat L40; ubiquitin may facilitate assembly of the ribosomal protein into ribosomes'"/>
+         <indistinguishable_protein protein_name="YKR094C">
+            <annotation protein_description="RPL40B SGDID:S000001802, Chr XI from 618392-618385,618016-617638, reverse complement, Verified ORF, 'Fusion protein, identical to Rpl40Ap, that is cleaved to yield ubiquitin and a ribosomal protein of the large (60S) ribosomal subunit with similarity to rat L40; ubiquitin may facilitate assembly of the ribosomal protein into ribosomes'"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="YLL039C">
+            <annotation protein_description="UBI4 SGDID:S000003962, Chr XII from 65206-64061, reverse complement, Verified ORF, 'Ubiquitin, becomes conjugated to proteins, marking them for selective degradation via the ubiquitin-26S proteasome system; essential for the cellular stress response; encoded as a polyubiquitin precursor comprised of 5 head-to-tail repeats'"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="YLR167W">
+            <annotation protein_description="RPS31 SGDID:S000004157, Chr XII from 498949-499407, Verified ORF, 'Fusion protein that is cleaved to yield a ribosomal protein of the small (40S) subunit and ubiquitin; ubiquitin may facilitate assembly of the ribosomal protein into ribosomes; interacts genetically with translation factor eIF2B'"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="ESTLHLVLR" charge="2" initial_probability="0.3872" nsp_adjusted_probability="0.0780" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.39" is_contributing_evidence="N" calc_neutral_pep_mass="1066.6135">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="36" probability="0.0000">
+      <protein protein_name="YJL132W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="YWQQKYGQNDRLR" group_sibling_id="a" total_number_peptides="0" confidence="0.0011">
+         <parameter name="prot_length" value="751"/>
+         <annotation protein_description="YJL132W SGDID:S000003668, Chr X from 161910-164162, Uncharacterized ORF, 'Putative protein of unknown function; localizes to the membrane fraction; possible Zap1p-regulated target gene induced by zinc deficiency; YJL132W is a non-essential gene'"/>
+         <peptide peptide_sequence="YWQQKYGQNDRLR" charge="2" initial_probability="0.1980" nsp_adjusted_probability="0.0320" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.20" is_contributing_evidence="N" calc_neutral_pep_mass="1753.8648">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="37" probability="0.0000">
+      <protein protein_name="YJR068W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="KIIILDEADSMTADAQSALRR" group_sibling_id="a" total_number_peptides="0" confidence="0.0024">
+         <parameter name="prot_length" value="354"/>
+         <annotation protein_description="RFC2 SGDID:S000003829, Chr X from 567635-568696, Verified ORF, 'Subunit of heteropentameric Replication factor C (RF-C), which is a DNA binding protein and ATPase that acts as a clamp loader of the proliferating cell nuclear antigen (PCNA) processivity factor for DNA polymerases delta and epsilon'"/>
+         <peptide peptide_sequence="KIIILDEADSMTADAQSALRR" charge="3" initial_probability="0.2799" nsp_adjusted_probability="0.0495" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.28" is_contributing_evidence="N" calc_neutral_pep_mass="2332.2056">
+<modification_info modified_peptide="KIIILDEADSM[147]TADAQSALRR">
+<mod_aminoacid_mass position="11" mass="147.035400"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="38" probability="0.0000">
+      <protein protein_name="YKL112W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="DVDDVMVDVDVESQYNK" group_sibling_id="a" total_number_peptides="0" confidence="0.0020">
+         <parameter name="prot_length" value="732"/>
+         <annotation protein_description="ABF1 SGDID:S000001595, Chr XI from 226214-228409, Verified ORF, 'DNA binding protein with possible chromatin-reorganizing activity involved in transcriptional activation, gene silencing, and DNA replication and repair'"/>
+         <peptide peptide_sequence="DVDDVMVDVDVESQYNK" charge="3" initial_probability="0.3022" nsp_adjusted_probability="0.0548" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.30" is_contributing_evidence="N" calc_neutral_pep_mass="1968.8622">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="39" probability="0.0000">
+      <protein protein_name="YKL114C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="TNAFNTGCNSFAMFLK" group_sibling_id="a" total_number_peptides="0" confidence="0.0006">
+         <parameter name="prot_length" value="368"/>
+         <annotation protein_description="APN1 SGDID:S000001597, Chr XI from 224099-222996, reverse complement, Verified ORF, 'Major apurinic/apyrimidinic endonuclease, 3'-repair diesterase involved in repair of DNA damage by oxidation and alkylating agents; also functions as a 3'-5' exonuclease to repair 7,8-dihydro-8-oxodeoxyguanosine'"/>
+         <peptide peptide_sequence="TNAFNTGCNSFAMFLK" charge="3" initial_probability="0.0636" nsp_adjusted_probability="0.0090" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.06" is_contributing_evidence="N" calc_neutral_pep_mass="1837.8127">
+<modification_info modified_peptide="TNAFNTGCNSFAM[147]FLK">
+<mod_aminoacid_mass position="8" mass="160.030600"/>
+<mod_aminoacid_mass position="13" mass="147.035400"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="40" probability="0.0000">
+      <protein protein_name="YKL145W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="LCPNSTGAELR" group_sibling_id="a" total_number_peptides="0" confidence="0.0008">
+         <parameter name="prot_length" value="468"/>
+         <annotation protein_description="RPT1 SGDID:S000001628, Chr XI from 174218-175621, Verified ORF, 'One of six ATPases of the 19S regulatory particle of the 26S proteasome involved in the degradation of ubiquitinated substrates; required for optimal CDC20 transcription; interacts with Rpn12p and the E3 ubiquitin-protein ligase Ubr1p'"/>
+         <peptide peptide_sequence="LCPNSTGAELR" charge="2" initial_probability="0.1061" nsp_adjusted_probability="0.0156" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.11" is_contributing_evidence="N" calc_neutral_pep_mass="1216.5870">
+<modification_info modified_peptide="LCPNSTGAELR">
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="41" probability="0.0000">
+      <protein protein_name="YKL198C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="CAGMIGSPPYAPPEVMFY" group_sibling_id="a" total_number_peptides="0" confidence="0.0005">
+         <parameter name="prot_length" value="650"/>
+         <annotation protein_description="PTK1 SGDID:S000001681, Chr XI from 70223-68274, reverse complement, Verified ORF, 'Putative serine/threonine protein kinase that regulates spermine uptake; involved in polyamine transport; possible mitochondrial protein'"/>
+         <peptide peptide_sequence="CAGMIGSPPYAPPEVMFY" charge="2" initial_probability="0.0527" nsp_adjusted_probability="0.0074" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.05" is_contributing_evidence="N" calc_neutral_pep_mass="1984.8409">
+<modification_info modified_peptide="C[143]AGMIGSPPYAPPEVM[147]FY">
+<mod_aminoacid_mass position="1" mass="143.004100"/>
+<mod_aminoacid_mass position="16" mass="147.035400"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="42" probability="0.0000">
+      <protein protein_name="YLL026W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="NDSSIQQIFK" group_sibling_id="a" total_number_peptides="0" confidence="0.0006">
+         <parameter name="prot_length" value="909"/>
+         <annotation protein_description="HSP104 SGDID:S000003949, Chr XII from 88622-91348, Verified ORF, 'Heat shock protein that cooperates with Ydj1p (Hsp40) and Ssa1p (Hsp70) to refold and reactivate previously denatured, aggregated proteins; responsive to stresses including: heat, ethanol, and sodium arsenite; involved in [PSI+] propagation'"/>
+         <peptide peptide_sequence="NDSSIQQIFK" charge="2" initial_probability="0.0747" nsp_adjusted_probability="0.0107" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="0.15" is_contributing_evidence="N" calc_neutral_pep_mass="1178.5931">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="43" probability="0.0000">
+      <protein protein_name="YLR024C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="VCNSLSNSFLPK" group_sibling_id="a" total_number_peptides="0" confidence="0.0004">
+         <parameter name="prot_length" value="1873"/>
+         <annotation protein_description="UBR2 SGDID:S000004014, Chr XII from 193282-187664, reverse complement, Verified ORF, 'Cytoplasmic ubiquitin-protein ligase (E3); required for ubiquitylation of Rpn4p; mediates formation of a Mub1p-Ubr2p-Rad6p complex'"/>
+         <peptide peptide_sequence="VCNSLSNSFLPK" charge="2" initial_probability="0.0501" nsp_adjusted_probability="0.0070" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.05" is_contributing_evidence="N" calc_neutral_pep_mass="1364.6758">
+<modification_info modified_peptide="VCNSLSNSFLPK">
+<mod_aminoacid_mass position="2" mass="160.030600"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="44" probability="0.0000">
+      <protein protein_name="YLR078C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="EGSSNGGGLPLYQ+GASHVMDSDNPFSTSETIMNKR" group_sibling_id="a" total_number_peptides="0" confidence="0.0014">
+         <parameter name="prot_length" value="245"/>
+         <annotation protein_description="BOS1 SGDID:S000004068, Chr XII from 286560-286558,286468-285737, reverse complement, Verified ORF, 'v-SNARE (vesicle specific SNAP receptor), localized to the endoplasmic reticulum membrane and necessary for vesicular transport from the ER to the Golgi'"/>
+         <peptide peptide_sequence="EGSSNGGGLPLYQ" charge="2" initial_probability="0.0654" nsp_adjusted_probability="0.0357" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.10" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="0.07" is_contributing_evidence="N" calc_neutral_pep_mass="1277.5887">
+         </peptide>
+         <peptide peptide_sequence="GASHVMDSDNPFSTSETIMNKR" charge="2" initial_probability="0.1025" nsp_adjusted_probability="0.0151" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.10" is_contributing_evidence="N" calc_neutral_pep_mass="2423.0845">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="45" probability="0.0000">
+      <protein protein_name="YLR138W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="GLAGGEDEEG" group_sibling_id="a" total_number_peptides="0" confidence="0.0050">
+         <parameter name="prot_length" value="986"/>
+         <annotation protein_description="NHA1 SGDID:S000004128, Chr XII from 418438-421395, Verified ORF, 'Na+/H+ antiporter involved in sodium and potassium efflux through the plasma membrane; required for alkali cation tolerance at acidic pH'"/>
+         <peptide peptide_sequence="GLAGGEDEEG" charge="2" initial_probability="0.4951" nsp_adjusted_probability="0.1160" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="3" exp_tot_instances="1.24" is_contributing_evidence="N" calc_neutral_pep_mass="932.3723">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="46" probability="0.0000">
+      <protein protein_name="YLR321C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="FTMAQQTR" group_sibling_id="a" total_number_peptides="0" confidence="0.0008">
+         <parameter name="prot_length" value="427"/>
+         <annotation protein_description="SFH1 SGDID:S000004313, Chr XII from 777864-776584, reverse complement, Verified ORF, 'Component of the RSC chromatin remodeling complex; essential gene required for cell cycle progression and maintenance of proper ploidy; phosphorylated in the G1 phase of the cell cycle; Snf5p paralog'"/>
+         <peptide peptide_sequence="FTMAQQTR" charge="2" initial_probability="0.1050" nsp_adjusted_probability="0.0155" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.10" is_contributing_evidence="N" calc_neutral_pep_mass="981.4702">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="47" probability="0.0000">
+      <protein protein_name="YLR347C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="AAVMAFGSIMDGPDK+GLIGAANR" group_sibling_id="a" total_number_peptides="0" confidence="0.0061">
+         <parameter name="prot_length" value="862"/>
+         <annotation protein_description="KAP95 SGDID:S000004339, Chr XII from 826412-823827, reverse complement, Verified ORF, 'Karyopherin beta, forms a complex with Srp1p/Kap60p; mediates nuclear import of cargo proteins via a nuclear localization signal; involved in PC biosynthesis; interacts with nucleoporins to guide transport across the nuclear pore comple'"/>
+         <peptide peptide_sequence="AAVMAFGSIMDGPDK" charge="3" initial_probability="0.4603" nsp_adjusted_probability="0.1025" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.46" is_contributing_evidence="N" calc_neutral_pep_mass="1524.6952">
+<modification_info modified_peptide="AAVM[147]AFGSIMDGPDK">
+<mod_aminoacid_mass position="4" mass="147.035400"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="GLIGAANR" charge="2" initial_probability="0.0545" nsp_adjusted_probability="0.0296" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.46" n_sibling_peptides_bin="1" n_instances="1" exp_tot_instances="0.05" is_contributing_evidence="N" calc_neutral_pep_mass="770.4399">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="48" probability="0.0000">
+      <protein protein_name="YLR429W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="KSSDIDQVNNAEDP" group_sibling_id="a" total_number_peptides="0" confidence="0.0006">
+         <parameter name="prot_length" value="652"/>
+         <annotation protein_description="CRN1 SGDID:S000004421, Chr XII from 990774-992729, Verified ORF, 'Coronin, cortical actin cytoskeletal component that associates with the Arp2p/Arp3p complex to regulate its activity; plays a role in regulation of actin patch assembly'"/>
+         <peptide peptide_sequence="KSSDIDQVNNAEDP" charge="2" initial_probability="0.0880" nsp_adjusted_probability="0.0128" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.09" is_contributing_evidence="N" calc_neutral_pep_mass="1530.6797">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="49" probability="0.0000">
+      <protein protein_name="YML103C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="TINGASIIQVIFEIFEISLQRK" group_sibling_id="a" total_number_peptides="0" confidence="0.0009">
+         <parameter name="prot_length" value="1656"/>
+         <annotation protein_description="NUP188 SGDID:S000004571, Chr XIII from 67549-62582, reverse complement, Verified ORF, 'Subunit of the nuclear pore complex (NPC), involved in the structural organization of the complex and of the nuclear envelope, also involved in nuclear envelope permeability, interacts with Pom152p and Nic96p'"/>
+         <peptide peptide_sequence="TINGASIIQVIFEIFEISLQRK" charge="3" initial_probability="0.2139" nsp_adjusted_probability="0.0351" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.21" is_contributing_evidence="N" calc_neutral_pep_mass="2518.4157">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="50" probability="0.0000">
+      <protein protein_name="YMR086W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="SSGSSNHDSSMYSDNSPA" group_sibling_id="a" total_number_peptides="0" confidence="0.0007">
+         <parameter name="prot_length" value="961"/>
+         <annotation protein_description="YMR086W SGDID:S000004692, Chr XIII from 439207-442089, Verified ORF, 'Protein of unknown function that may interact with ribosomes, based on co-purification experiments; GFP-fusion protein localizes to the cell periphery; possible component of the eisosome; expression is repressed by cAMP'"/>
+         <peptide peptide_sequence="SSGSSNHDSSMYSDNSPA" charge="2" initial_probability="0.1215" nsp_adjusted_probability="0.0182" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.12" is_contributing_evidence="N" calc_neutral_pep_mass="1828.6807">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="51" probability="0.0000">
+      <protein protein_name="YMR089C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="MTMSLGGRV" group_sibling_id="a" total_number_peptides="0" confidence="0.0008">
+         <parameter name="prot_length" value="826"/>
+         <annotation protein_description="YTA12 SGDID:S000004695, Chr XIII from 448085-445608, reverse complement, Verified ORF, 'Component, with Afg3p, of the mitochondrial inner membrane m-AAA protease that mediates degradation of misfolded or unassembled proteins and is also required for correct assembly of mitochondrial enzyme complexes'"/>
+         <peptide peptide_sequence="MTMSLGGRV" charge="2" initial_probability="0.1283" nsp_adjusted_probability="0.0193" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.13" is_contributing_evidence="N" calc_neutral_pep_mass="982.4576">
+<modification_info modified_peptide="M[147]TM[147]SLGGRV">
+<mod_aminoacid_mass position="1" mass="147.035400"/>
+<mod_aminoacid_mass position="3" mass="147.035400"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="52" probability="0.0000">
+      <protein protein_name="YMR153W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="DSNEAPPK" group_sibling_id="a" total_number_peptides="0" confidence="0.0010">
+         <parameter name="prot_length" value="476"/>
+         <annotation protein_description="NUP53 SGDID:S000004762, Chr XIII from 564434-565861, Verified ORF, 'Subunit of the nuclear pore complex (NPC), interacts with karyopherin Kap121p or with Nup170p via overlapping regions of Nup53p, involved in activation of the spindle checkpoint mediated by the Mad1p-Mad2p complex'"/>
+         <peptide peptide_sequence="DSNEAPPK" charge="2" initial_probability="0.1426" nsp_adjusted_probability="0.0218" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.14" is_contributing_evidence="N" calc_neutral_pep_mass="856.3926">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="53" probability="0.0000">
+      <protein protein_name="YNL250W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="TNALYNLNTIEK" group_sibling_id="a" total_number_peptides="0" confidence="0.0005">
+         <parameter name="prot_length" value="1313"/>
+         <annotation protein_description="RAD50 SGDID:S000005194, Chr XIV from 175411-179349, Verified ORF, 'Subunit of MRX complex, with Mre11p and Xrs2p, involved in processing double-strand DNA breaks in vegetative cells, initiation of meiotic DSBs, telomere maintenance, and nonhomologous end joining'"/>
+         <peptide peptide_sequence="TNALYNLNTIEK" charge="2" initial_probability="0.0578" nsp_adjusted_probability="0.0082" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.06" is_contributing_evidence="N" calc_neutral_pep_mass="1392.7249">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="54" probability="0.0000">
+      <protein protein_name="YNL273W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="MSADLQQGTTNAADFSL" group_sibling_id="a" total_number_peptides="0" confidence="0.0016">
+         <parameter name="prot_length" value="1239"/>
+         <annotation protein_description="TOF1 SGDID:S000005217, Chr XIV from 122883-126599, Verified ORF, 'Subunit of a replication-pausing checkpoint complex (Tof1p-Mrc1p-Csm3p) that acts at the stalled replication fork to promote sister chromatid cohesion after DNA damage, facilitating gap repair of damaged DNA; interacts with the MCM helicase'"/>
+         <peptide peptide_sequence="MSADLQQGTTNAADFSL" charge="3" initial_probability="0.3022" nsp_adjusted_probability="0.0548" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.30" is_contributing_evidence="N" calc_neutral_pep_mass="1826.7992">
+<modification_info modified_peptide="M[147]SADLQQGTTNAADFSL">
+<mod_aminoacid_mass position="1" mass="147.035400"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="55" probability="0.0000">
+      <protein protein_name="YNL278W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="FASSVNDSPSDRAKSR" group_sibling_id="a" total_number_peptides="0" confidence="0.0007">
+         <parameter name="prot_length" value="1061"/>
+         <annotation protein_description="CAF120 SGDID:S000005222, Chr XIV from 113271-116453, Verified ORF, 'Part of the evolutionarily-conserved CCR4-NOT transcriptional regulatory complex involved in controlling mRNA initiation, elongation, and degradation'"/>
+         <peptide peptide_sequence="FASSVNDSPSDRAKSR" charge="3" initial_probability="0.1175" nsp_adjusted_probability="0.0175" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.12" is_contributing_evidence="N" calc_neutral_pep_mass="1722.8287">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="56" probability="0.0000">
+      <protein protein_name="YNR068C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="GVGSAEIDIPVQ" group_sibling_id="a" total_number_peptides="0" confidence="0.0100">
+         <parameter name="prot_length" value="273"/>
+         <annotation protein_description="YNR068C SGDID:S000005351, Chr XIV from 760885-760067, reverse complement, Uncharacterized ORF, 'Putative protein of unknown function'"/>
+         <peptide peptide_sequence="GVGSAEIDIPVQ" charge="2" initial_probability="0.4786" nsp_adjusted_probability="0.1094" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.48" is_contributing_evidence="N" calc_neutral_pep_mass="1183.6084">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="57" probability="0.0000">
+      <protein protein_name="YOR284W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="LDHDSVVEYSEDEIVEADRITLGYK" group_sibling_id="a" total_number_peptides="0" confidence="0.0024">
+         <parameter name="prot_length" value="244"/>
+         <annotation protein_description="HUA2 SGDID:S000005810, Chr XV from 848477-849208, Verified ORF, 'Cytoplasmic protein of unknown function; computational analysis of large-scale protein-protein interaction data suggests a possible role in actin patch assembly'"/>
+         <peptide peptide_sequence="LDHDSVVEYSEDEIVEADRITLGYK" charge="3" initial_probability="0.2568" nsp_adjusted_probability="0.0442" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.26" is_contributing_evidence="N" calc_neutral_pep_mass="2894.3821">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="58" probability="0.0000">
+      <protein protein_name="YOR304W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="QDFQFFPK" group_sibling_id="a" total_number_peptides="0" confidence="0.0007">
+         <parameter name="prot_length" value="1121"/>
+         <annotation protein_description="ISW2 SGDID:S000005831, Chr XV from 884512-887874, Verified ORF, 'ATP-dependent DNA translocase involved in chromatin remodeling; ATPase component that, with Itc1p, forms a complex required for repression of a-specific genes, INO1, and early meiotic genes during mitotic growth'"/>
+         <peptide peptide_sequence="QDFQFFPK" charge="2" initial_probability="0.1395" nsp_adjusted_probability="0.0212" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="0.21" is_contributing_evidence="N" calc_neutral_pep_mass="1038.4811">
+<modification_info modified_peptide="Q[111]DFQFFPK">
+<mod_aminoacid_mass position="1" mass="111.032100"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="59" probability="0.0000">
+      <protein protein_name="YPR015C" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="EVHLPPCSSIMHAPLTP" group_sibling_id="a" total_number_peptides="0" confidence="0.0007">
+         <parameter name="prot_length" value="248"/>
+         <annotation protein_description="YPR015C SGDID:S000006219, Chr XVI from 591023-590280, reverse complement, Uncharacterized ORF, 'Putative protein of unknown function; overexpression causes a cell cycle delay or arrest'"/>
+         <peptide peptide_sequence="EVHLPPCSSIMHAPLTP" charge="2" initial_probability="0.0573" nsp_adjusted_probability="0.0081" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.06" is_contributing_evidence="N" calc_neutral_pep_mass="1866.9120">
+<modification_info modified_peptide="E[111]VHLPPCSSIMHAPLTP">
+<mod_aminoacid_mass position="1" mass="111.032000"/>
+<mod_aminoacid_mass position="7" mass="160.030600"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="60" probability="0.0000">
+      <protein protein_name="YPR137W" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="TIDEYNNF" group_sibling_id="a" total_number_peptides="0" confidence="0.0040">
+         <parameter name="prot_length" value="574"/>
+         <annotation protein_description="RRP9 SGDID:S000006341, Chr XVI from 802355-804076, Verified ORF, 'Protein involved in pre-rRNA processing, associated with U3 snRNP; component of small ribosomal subunit (SSU) processosome; ortholog of the human U3-55k protein'"/>
+         <peptide peptide_sequence="TIDEYNNF" charge="2" initial_probability="0.4012" nsp_adjusted_probability="0.0823" weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="1" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="0.53" is_contributing_evidence="N" calc_neutral_pep_mass="1014.4294">
+         </peptide>
+      </protein>
+</protein_group>
+</protein_summary>
