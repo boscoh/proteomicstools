@@ -14,3 +14,5 @@ This is a repository of the tools written at the Monash Proteomics Facility
 - `down_pilot`: a simple conversion tool for ProteinPilot 5 down to ProteinPilot 4
 
 - `format_uniprot`: for the TPP package, fasta files need to be preprocessed to change the name entries. Although a perl script is provided, this does it in python.
+
+- `tpp`: python module to run some TPP tools
